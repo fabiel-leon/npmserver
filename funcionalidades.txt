@@ -1,0 +1,3 @@
+servidor de paquetes de node
+servidor de documentacion de paquetes de node
+peticion a servidores de internet para paquetes no encontrados localmente incluso mediante proxy del sistema si esta establecido

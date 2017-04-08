@@ -1,0 +1,3084 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2016-07-20T12:33:02</date>
+  <millis>1469017982562</millis>
+  <sequence>0</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>9</thread>
+  <message>hostname = user-pc</message>
+</record>
+<record>
+  <date>2016-07-20T12:33:02</date>
+  <millis>1469017982624</millis>
+  <sequence>1</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>9</thread>
+  <message>carpeta = /media/datos/app/java/npmserver/repo</message>
+</record>
+<record>
+  <date>2016-07-20T12:33:02</date>
+  <millis>1469017982771</millis>
+  <sequence>2</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>9</thread>
+  <message>running = 127.0.0.1:8,888</message>
+</record>
+<record>
+  <date>2016-07-20T12:33:02</date>
+  <millis>1469017982855</millis>
+  <sequence>3</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>9</thread>
+  <message>running = localhost:8,888</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2016-07-20T12:33:25</date>
+  <millis>1469018005050</millis>
+  <sequence>0</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>9</thread>
+  <message>hostname = user-pc</message>
+</record>
+<record>
+  <date>2016-07-20T12:33:25</date>
+  <millis>1469018005441</millis>
+  <sequence>1</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>9</thread>
+  <message>carpeta = /media/datos/app/java/npmserver/repo</message>
+</record>
+<record>
+  <date>2016-07-20T12:33:25</date>
+  <millis>1469018005606</millis>
+  <sequence>2</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>9</thread>
+  <message>running = 127.0.0.1:8,888</message>
+</record>
+<record>
+  <date>2016-07-20T12:33:25</date>
+  <millis>1469018005685</millis>
+  <sequence>3</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>9</thread>
+  <message>running = localhost:8,888</message>
+</record>
+<record>
+  <date>2016-07-20T12:33:56</date>
+  <millis>1469018036741</millis>
+  <sequence>4</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message> trying download from internet http://registry.npmjs.org/node-inspector</message>
+</record>
+<record>
+  <date>2016-07-20T12:33:58</date>
+  <millis>1469018038235</millis>
+  <sequence>5</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message> trying download from internet http://registry.npmjs.org/node-inspector</message>
+</record>
+<record>
+  <date>2016-07-20T12:33:59</date>
+  <millis>1469018039067</millis>
+  <sequence>6</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message> trying download from internet http://registry.npmjs.org/node-inspector</message>
+</record>
+<record>
+  <date>2016-07-20T12:33:59</date>
+  <millis>1469018039899</millis>
+  <sequence>7</sequence>
+  <logger>com.fabiel.npmregistryserver.NPMRegistryServer</logger>
+  <level>WARNING</level>
+  <class>com.fabiel.npmregistryserver.NPMRegistryServer$1$1</class>
+  <method>notFound</method>
+  <thread>13</thread>
+  <message>404 /node-inspector</message>
+</record>
+<record>
+  <date>2016-07-20T12:33:59</date>
+  <millis>1469018039955</millis>
+  <sequence>8</sequence>
+  <logger>com.fabiel.npmregistryserver.NPMRegistryServer</logger>
+  <level>SEVERE</level>
+  <class>com.fabiel.npmregistryserver.NPMRegistryServer$1$1</class>
+  <method>handle</method>
+  <thread>13</thread>
+  <exception>
+    <message>java.io.IOException: content type no requerido text/html</message>
+    <frame>
+      <class>com.fabiel.npmregistryserver.NPMRegistryServer$1$1</class>
+      <method>fallback</method>
+      <line>295</line>
+    </frame>
+    <frame>
+      <class>com.fabiel.npmregistryserver.NPMRegistryServer$1$1</class>
+      <method>handle</method>
+      <line>170</line>
+    </frame>
+    <frame>
+      <class>com.sun.net.httpserver.Filter$Chain</class>
+      <method>doFilter</method>
+      <line>79</line>
+    </frame>
+    <frame>
+      <class>sun.net.httpserver.AuthFilter</class>
+      <method>doFilter</method>
+      <line>83</line>
+    </frame>
+    <frame>
+      <class>com.sun.net.httpserver.Filter$Chain</class>
+      <method>doFilter</method>
+      <line>82</line>
+    </frame>
+    <frame>
+      <class>sun.net.httpserver.ServerImpl$Exchange$LinkHandler</class>
+      <method>handle</method>
+      <line>675</line>
+    </frame>
+    <frame>
+      <class>com.sun.net.httpserver.Filter$Chain</class>
+      <method>doFilter</method>
+      <line>79</line>
+    </frame>
+    <frame>
+      <class>sun.net.httpserver.ServerImpl$Exchange</class>
+      <method>run</method>
+      <line>647</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor</class>
+      <method>runWorker</method>
+      <line>1142</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor$Worker</class>
+      <method>run</method>
+      <line>617</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <method>run</method>
+      <line>745</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2016-07-20T12:34:06</date>
+  <millis>1469018046845</millis>
+  <sequence>9</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>14</thread>
+  <message> trying download from internet http://registry.npmjs.org/biased-opener</message>
+</record>
+<record>
+  <date>2016-07-20T12:34:06</date>
+  <millis>1469018046867</millis>
+  <sequence>10</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message> trying download from internet http://registry.npmjs.org/strong-data-uri</message>
+</record>
+<record>
+  <date>2016-07-20T12:34:06</date>
+  <millis>1469018046889</millis>
+  <sequence>11</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message> trying download from internet http://registry.npmjs.org/v8-debug</message>
+</record>
+<record>
+  <date>2016-07-20T12:34:06</date>
+  <millis>1469018046915</millis>
+  <sequence>12</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message> trying download from internet http://registry.npmjs.org/v8-profiler</message>
+</record>
+<record>
+  <date>2016-07-20T12:34:07</date>
+  <millis>1469018047218</millis>
+  <sequence>13</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>18</thread>
+  <message> trying download from internet http://registry.npmjs.org/async</message>
+</record>
+<record>
+  <date>2016-07-20T12:34:07</date>
+  <millis>1469018047235</millis>
+  <sequence>14</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>19</thread>
+  <message> trying download from internet http://registry.npmjs.org/glob</message>
+</record>
+<record>
+  <date>2016-07-20T12:34:07</date>
+  <millis>1469018047243</millis>
+  <sequence>15</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>20</thread>
+  <message> trying download from internet http://registry.npmjs.org/path-is-absolute</message>
+</record>
+<record>
+  <date>2016-07-20T12:34:07</date>
+  <millis>1469018047285</millis>
+  <sequence>16</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>21</thread>
+  <message> trying download from internet http://registry.npmjs.org/rc</message>
+</record>
+<record>
+  <date>2016-07-20T12:34:07</date>
+  <millis>1469018047313</millis>
+  <sequence>17</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>22</thread>
+  <message> trying download from internet http://registry.npmjs.org/debug</message>
+</record>
+<record>
+  <date>2016-07-20T12:34:07</date>
+  <millis>1469018047378</millis>
+  <sequence>19</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>23</thread>
+  <message> trying download from internet http://registry.npmjs.org/semver</message>
+</record>
+<record>
+  <date>2016-07-20T12:34:07</date>
+  <millis>1469018047347</millis>
+  <sequence>18</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>24</thread>
+  <message> trying download from internet http://registry.npmjs.org/serve-favicon</message>
+</record>
+<record>
+  <date>2016-07-20T12:34:07</date>
+  <millis>1469018047541</millis>
+  <sequence>20</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>25</thread>
+  <message> trying download from internet http://registry.npmjs.org/which</message>
+</record>
+<record>
+  <date>2016-07-20T12:34:07</date>
+  <millis>1469018047557</millis>
+  <sequence>21</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>26</thread>
+  <message> trying download from internet http://registry.npmjs.org/ws</message>
+</record>
+<record>
+  <date>2016-07-20T12:34:07</date>
+  <millis>1469018047563</millis>
+  <sequence>23</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>27</thread>
+  <message> trying download from internet http://registry.npmjs.org/express</message>
+</record>
+<record>
+  <date>2016-07-20T12:34:07</date>
+  <millis>1469018047563</millis>
+  <sequence>22</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message> trying download from internet http://registry.npmjs.org/yargs</message>
+</record>
+<record>
+  <date>2016-07-20T12:34:09</date>
+  <millis>1469018049625</millis>
+  <sequence>24</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message> trying download from internet http://registry.npmjs.org/v8-debug</message>
+</record>
+<record>
+  <date>2016-07-20T12:34:10</date>
+  <millis>1469018050756</millis>
+  <sequence>25</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>19</thread>
+  <message> trying download from internet http://registry.npmjs.org/glob</message>
+</record>
+<record>
+  <date>2016-07-20T12:34:10</date>
+  <millis>1469018050807</millis>
+  <sequence>26</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>20</thread>
+  <message> trying download from internet http://registry.npmjs.org/path-is-absolute</message>
+</record>
+<record>
+  <date>2016-07-20T12:34:10</date>
+  <millis>1469018050981</millis>
+  <sequence>27</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message> trying download from internet http://registry.npmjs.org/strong-data-uri</message>
+</record>
+<record>
+  <date>2016-07-20T12:34:11</date>
+  <millis>1469018051115</millis>
+  <sequence>28</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>18</thread>
+  <message> trying download from internet http://registry.npmjs.org/async</message>
+</record>
+<record>
+  <date>2016-07-20T12:34:11</date>
+  <millis>1469018051280</millis>
+  <sequence>29</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>21</thread>
+  <message> trying download from internet http://registry.npmjs.org/rc</message>
+</record>
+<record>
+  <date>2016-07-20T12:34:11</date>
+  <millis>1469018051623</millis>
+  <sequence>30</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>14</thread>
+  <message> trying download from internet http://registry.npmjs.org/biased-opener</message>
+</record>
+<record>
+  <date>2016-07-20T12:34:11</date>
+  <millis>1469018051734</millis>
+  <sequence>31</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message> trying download from internet http://registry.npmjs.org/v8-profiler</message>
+</record>
+<record>
+  <date>2016-07-20T12:34:12</date>
+  <millis>1469018052642</millis>
+  <sequence>32</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>22</thread>
+  <message> trying download from internet http://registry.npmjs.org/debug</message>
+</record>
+<record>
+  <date>2016-07-20T12:34:13</date>
+  <millis>1469018053118</millis>
+  <sequence>33</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>27</thread>
+  <message> trying download from internet http://registry.npmjs.org/express</message>
+</record>
+<record>
+  <date>2016-07-20T12:34:13</date>
+  <millis>1469018053471</millis>
+  <sequence>34</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>24</thread>
+  <message> trying download from internet http://registry.npmjs.org/serve-favicon</message>
+</record>
+<record>
+  <date>2016-07-20T12:34:13</date>
+  <millis>1469018053666</millis>
+  <sequence>35</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message> trying download from internet http://registry.npmjs.org/yargs</message>
+</record>
+<record>
+  <date>2016-07-20T12:34:13</date>
+  <millis>1469018053812</millis>
+  <sequence>36</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>25</thread>
+  <message> trying download from internet http://registry.npmjs.org/which</message>
+</record>
+<record>
+  <date>2016-07-20T12:34:15</date>
+  <millis>1469018055089</millis>
+  <sequence>37</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>26</thread>
+  <message> trying download from internet http://registry.npmjs.org/ws</message>
+</record>
+<record>
+  <date>2016-07-20T12:34:15</date>
+  <millis>1469018055114</millis>
+  <sequence>38</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>23</thread>
+  <message> trying download from internet http://registry.npmjs.org/semver</message>
+</record>
+<record>
+  <date>2016-07-20T12:34:15</date>
+  <millis>1469018055854</millis>
+  <sequence>39</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message> trying download from internet http://registry.npmjs.org/v8-debug</message>
+</record>
+<record>
+  <date>2016-07-20T12:34:16</date>
+  <millis>1469018056837</millis>
+  <sequence>40</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>20</thread>
+  <message> trying download from internet http://registry.npmjs.org/path-is-absolute</message>
+</record>
+<record>
+  <date>2016-07-20T12:34:17</date>
+  <millis>1469018057111</millis>
+  <sequence>41</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>18</thread>
+  <message> trying download from internet http://registry.npmjs.org/async</message>
+</record>
+<record>
+  <date>2016-07-20T12:34:17</date>
+  <millis>1469018057418</millis>
+  <sequence>42</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message> trying download from internet http://registry.npmjs.org/v8-profiler</message>
+</record>
+<record>
+  <date>2016-07-20T12:34:18</date>
+  <millis>1469018058074</millis>
+  <sequence>43</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message> trying download from internet http://registry.npmjs.org/strong-data-uri</message>
+</record>
+<record>
+  <date>2016-07-20T12:34:18</date>
+  <millis>1469018058336</millis>
+  <sequence>44</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>19</thread>
+  <message> trying download from internet http://registry.npmjs.org/glob</message>
+</record>
+<record>
+  <date>2016-07-20T12:34:18</date>
+  <millis>1469018058532</millis>
+  <sequence>45</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>14</thread>
+  <message> trying download from internet http://registry.npmjs.org/biased-opener</message>
+</record>
+<record>
+  <date>2016-07-20T12:34:18</date>
+  <millis>1469018058826</millis>
+  <sequence>46</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message> trying download from internet http://registry.npmjs.org/yargs</message>
+</record>
+<record>
+  <date>2016-07-20T12:34:19</date>
+  <millis>1469018059260</millis>
+  <sequence>47</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>24</thread>
+  <message> trying download from internet http://registry.npmjs.org/serve-favicon</message>
+</record>
+<record>
+  <date>2016-07-20T12:34:20</date>
+  <millis>1469018060112</millis>
+  <sequence>48</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>21</thread>
+  <message> trying download from internet http://registry.npmjs.org/rc</message>
+</record>
+<record>
+  <date>2016-07-20T12:34:20</date>
+  <millis>1469018060167</millis>
+  <sequence>49</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>27</thread>
+  <message> trying download from internet http://registry.npmjs.org/express</message>
+</record>
+<record>
+  <date>2016-07-20T12:34:20</date>
+  <millis>1469018060221</millis>
+  <sequence>50</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>25</thread>
+  <message> trying download from internet http://registry.npmjs.org/which</message>
+</record>
+<record>
+  <date>2016-07-20T12:34:21</date>
+  <millis>1469018061922</millis>
+  <sequence>51</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>26</thread>
+  <message> trying download from internet http://registry.npmjs.org/ws</message>
+</record>
+<record>
+  <date>2016-07-20T12:34:22</date>
+  <millis>1469018062552</millis>
+  <sequence>52</sequence>
+  <logger>com.fabiel.npmregistryserver.NPMRegistryServer</logger>
+  <level>WARNING</level>
+  <class>com.fabiel.npmregistryserver.NPMRegistryServer$1$1</class>
+  <method>notFound</method>
+  <thread>16</thread>
+  <message>404 /v8-debug</message>
+</record>
+<record>
+  <date>2016-07-20T12:34:22</date>
+  <millis>1469018062579</millis>
+  <sequence>53</sequence>
+  <logger>com.fabiel.npmregistryserver.NPMRegistryServer</logger>
+  <level>SEVERE</level>
+  <class>com.fabiel.npmregistryserver.NPMRegistryServer$1$1</class>
+  <method>handle</method>
+  <thread>16</thread>
+  <exception>
+    <message>java.io.IOException: content type no requerido text/html</message>
+    <frame>
+      <class>com.fabiel.npmregistryserver.NPMRegistryServer$1$1</class>
+      <method>fallback</method>
+      <line>295</line>
+    </frame>
+    <frame>
+      <class>com.fabiel.npmregistryserver.NPMRegistryServer$1$1</class>
+      <method>handle</method>
+      <line>170</line>
+    </frame>
+    <frame>
+      <class>com.sun.net.httpserver.Filter$Chain</class>
+      <method>doFilter</method>
+      <line>79</line>
+    </frame>
+    <frame>
+      <class>sun.net.httpserver.AuthFilter</class>
+      <method>doFilter</method>
+      <line>83</line>
+    </frame>
+    <frame>
+      <class>com.sun.net.httpserver.Filter$Chain</class>
+      <method>doFilter</method>
+      <line>82</line>
+    </frame>
+    <frame>
+      <class>sun.net.httpserver.ServerImpl$Exchange$LinkHandler</class>
+      <method>handle</method>
+      <line>675</line>
+    </frame>
+    <frame>
+      <class>com.sun.net.httpserver.Filter$Chain</class>
+      <method>doFilter</method>
+      <line>79</line>
+    </frame>
+    <frame>
+      <class>sun.net.httpserver.ServerImpl$Exchange</class>
+      <method>run</method>
+      <line>647</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor</class>
+      <method>runWorker</method>
+      <line>1142</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor$Worker</class>
+      <method>run</method>
+      <line>617</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <method>run</method>
+      <line>745</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2016-07-20T12:34:23</date>
+  <millis>1469018063076</millis>
+  <sequence>54</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>23</thread>
+  <message> trying download from internet http://registry.npmjs.org/semver</message>
+</record>
+<record>
+  <date>2016-07-20T12:34:23</date>
+  <millis>1469018063239</millis>
+  <sequence>55</sequence>
+  <logger>com.fabiel.npmregistryserver.NPMRegistryServer</logger>
+  <level>WARNING</level>
+  <class>com.fabiel.npmregistryserver.NPMRegistryServer$1$1</class>
+  <method>notFound</method>
+  <thread>17</thread>
+  <message>404 /v8-profiler</message>
+</record>
+<record>
+  <date>2016-07-20T12:34:23</date>
+  <millis>1469018063249</millis>
+  <sequence>56</sequence>
+  <logger>com.fabiel.npmregistryserver.NPMRegistryServer</logger>
+  <level>SEVERE</level>
+  <class>com.fabiel.npmregistryserver.NPMRegistryServer$1$1</class>
+  <method>handle</method>
+  <thread>17</thread>
+  <exception>
+    <message>java.io.IOException: content type no requerido text/html</message>
+    <frame>
+      <class>com.fabiel.npmregistryserver.NPMRegistryServer$1$1</class>
+      <method>fallback</method>
+      <line>295</line>
+    </frame>
+    <frame>
+      <class>com.fabiel.npmregistryserver.NPMRegistryServer$1$1</class>
+      <method>handle</method>
+      <line>170</line>
+    </frame>
+    <frame>
+      <class>com.sun.net.httpserver.Filter$Chain</class>
+      <method>doFilter</method>
+      <line>79</line>
+    </frame>
+    <frame>
+      <class>sun.net.httpserver.AuthFilter</class>
+      <method>doFilter</method>
+      <line>83</line>
+    </frame>
+    <frame>
+      <class>com.sun.net.httpserver.Filter$Chain</class>
+      <method>doFilter</method>
+      <line>82</line>
+    </frame>
+    <frame>
+      <class>sun.net.httpserver.ServerImpl$Exchange$LinkHandler</class>
+      <method>handle</method>
+      <line>675</line>
+    </frame>
+    <frame>
+      <class>com.sun.net.httpserver.Filter$Chain</class>
+      <method>doFilter</method>
+      <line>79</line>
+    </frame>
+    <frame>
+      <class>sun.net.httpserver.ServerImpl$Exchange</class>
+      <method>run</method>
+      <line>647</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor</class>
+      <method>runWorker</method>
+      <line>1142</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor$Worker</class>
+      <method>run</method>
+      <line>617</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <method>run</method>
+      <line>745</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2016-07-20T12:34:23</date>
+  <millis>1469018063404</millis>
+  <sequence>57</sequence>
+  <logger>com.fabiel.npmregistryserver.NPMRegistryServer</logger>
+  <level>WARNING</level>
+  <class>com.fabiel.npmregistryserver.NPMRegistryServer$1$1</class>
+  <method>notFound</method>
+  <thread>14</thread>
+  <message>404 /biased-opener</message>
+</record>
+<record>
+  <date>2016-07-20T12:34:23</date>
+  <millis>1469018063423</millis>
+  <sequence>58</sequence>
+  <logger>com.fabiel.npmregistryserver.NPMRegistryServer</logger>
+  <level>SEVERE</level>
+  <class>com.fabiel.npmregistryserver.NPMRegistryServer$1$1</class>
+  <method>handle</method>
+  <thread>14</thread>
+  <exception>
+    <message>java.io.IOException: content type no requerido text/html</message>
+    <frame>
+      <class>com.fabiel.npmregistryserver.NPMRegistryServer$1$1</class>
+      <method>fallback</method>
+      <line>295</line>
+    </frame>
+    <frame>
+      <class>com.fabiel.npmregistryserver.NPMRegistryServer$1$1</class>
+      <method>handle</method>
+      <line>170</line>
+    </frame>
+    <frame>
+      <class>com.sun.net.httpserver.Filter$Chain</class>
+      <method>doFilter</method>
+      <line>79</line>
+    </frame>
+    <frame>
+      <class>sun.net.httpserver.AuthFilter</class>
+      <method>doFilter</method>
+      <line>83</line>
+    </frame>
+    <frame>
+      <class>com.sun.net.httpserver.Filter$Chain</class>
+      <method>doFilter</method>
+      <line>82</line>
+    </frame>
+    <frame>
+      <class>sun.net.httpserver.ServerImpl$Exchange$LinkHandler</class>
+      <method>handle</method>
+      <line>675</line>
+    </frame>
+    <frame>
+      <class>com.sun.net.httpserver.Filter$Chain</class>
+      <method>doFilter</method>
+      <line>79</line>
+    </frame>
+    <frame>
+      <class>sun.net.httpserver.ServerImpl$Exchange</class>
+      <method>run</method>
+      <line>647</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor</class>
+      <method>runWorker</method>
+      <line>1142</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor$Worker</class>
+      <method>run</method>
+      <line>617</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <method>run</method>
+      <line>745</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2016-07-20T12:34:23</date>
+  <millis>1469018063855</millis>
+  <sequence>59</sequence>
+  <logger>com.fabiel.npmregistryserver.NPMRegistryServer</logger>
+  <level>WARNING</level>
+  <class>com.fabiel.npmregistryserver.NPMRegistryServer$1$1</class>
+  <method>notFound</method>
+  <thread>18</thread>
+  <message>404 /async</message>
+</record>
+<record>
+  <date>2016-07-20T12:34:23</date>
+  <millis>1469018063869</millis>
+  <sequence>60</sequence>
+  <logger>com.fabiel.npmregistryserver.NPMRegistryServer</logger>
+  <level>SEVERE</level>
+  <class>com.fabiel.npmregistryserver.NPMRegistryServer$1$1</class>
+  <method>handle</method>
+  <thread>18</thread>
+  <exception>
+    <message>java.io.IOException: content type no requerido text/html</message>
+    <frame>
+      <class>com.fabiel.npmregistryserver.NPMRegistryServer$1$1</class>
+      <method>fallback</method>
+      <line>295</line>
+    </frame>
+    <frame>
+      <class>com.fabiel.npmregistryserver.NPMRegistryServer$1$1</class>
+      <method>handle</method>
+      <line>170</line>
+    </frame>
+    <frame>
+      <class>com.sun.net.httpserver.Filter$Chain</class>
+      <method>doFilter</method>
+      <line>79</line>
+    </frame>
+    <frame>
+      <class>sun.net.httpserver.AuthFilter</class>
+      <method>doFilter</method>
+      <line>83</line>
+    </frame>
+    <frame>
+      <class>com.sun.net.httpserver.Filter$Chain</class>
+      <method>doFilter</method>
+      <line>82</line>
+    </frame>
+    <frame>
+      <class>sun.net.httpserver.ServerImpl$Exchange$LinkHandler</class>
+      <method>handle</method>
+      <line>675</line>
+    </frame>
+    <frame>
+      <class>com.sun.net.httpserver.Filter$Chain</class>
+      <method>doFilter</method>
+      <line>79</line>
+    </frame>
+    <frame>
+      <class>sun.net.httpserver.ServerImpl$Exchange</class>
+      <method>run</method>
+      <line>647</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor</class>
+      <method>runWorker</method>
+      <line>1142</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor$Worker</class>
+      <method>run</method>
+      <line>617</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <method>run</method>
+      <line>745</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2016-07-20T12:34:24</date>
+  <millis>1469018064052</millis>
+  <sequence>61</sequence>
+  <logger>com.fabiel.npmregistryserver.NPMRegistryServer</logger>
+  <level>WARNING</level>
+  <class>com.fabiel.npmregistryserver.NPMRegistryServer$1$1</class>
+  <method>notFound</method>
+  <thread>20</thread>
+  <message>404 /path-is-absolute</message>
+</record>
+<record>
+  <date>2016-07-20T12:34:24</date>
+  <millis>1469018064068</millis>
+  <sequence>62</sequence>
+  <logger>com.fabiel.npmregistryserver.NPMRegistryServer</logger>
+  <level>SEVERE</level>
+  <class>com.fabiel.npmregistryserver.NPMRegistryServer$1$1</class>
+  <method>handle</method>
+  <thread>20</thread>
+  <exception>
+    <message>java.io.IOException: content type no requerido text/html</message>
+    <frame>
+      <class>com.fabiel.npmregistryserver.NPMRegistryServer$1$1</class>
+      <method>fallback</method>
+      <line>295</line>
+    </frame>
+    <frame>
+      <class>com.fabiel.npmregistryserver.NPMRegistryServer$1$1</class>
+      <method>handle</method>
+      <line>170</line>
+    </frame>
+    <frame>
+      <class>com.sun.net.httpserver.Filter$Chain</class>
+      <method>doFilter</method>
+      <line>79</line>
+    </frame>
+    <frame>
+      <class>sun.net.httpserver.AuthFilter</class>
+      <method>doFilter</method>
+      <line>83</line>
+    </frame>
+    <frame>
+      <class>com.sun.net.httpserver.Filter$Chain</class>
+      <method>doFilter</method>
+      <line>82</line>
+    </frame>
+    <frame>
+      <class>sun.net.httpserver.ServerImpl$Exchange$LinkHandler</class>
+      <method>handle</method>
+      <line>675</line>
+    </frame>
+    <frame>
+      <class>com.sun.net.httpserver.Filter$Chain</class>
+      <method>doFilter</method>
+      <line>79</line>
+    </frame>
+    <frame>
+      <class>sun.net.httpserver.ServerImpl$Exchange</class>
+      <method>run</method>
+      <line>647</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor</class>
+      <method>runWorker</method>
+      <line>1142</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor$Worker</class>
+      <method>run</method>
+      <line>617</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <method>run</method>
+      <line>745</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2016-07-20T12:34:24</date>
+  <millis>1469018064396</millis>
+  <sequence>63</sequence>
+  <logger>com.fabiel.npmregistryserver.NPMRegistryServer</logger>
+  <level>WARNING</level>
+  <class>com.fabiel.npmregistryserver.NPMRegistryServer$1$1</class>
+  <method>notFound</method>
+  <thread>13</thread>
+  <message>404 /yargs</message>
+</record>
+<record>
+  <date>2016-07-20T12:34:24</date>
+  <millis>1469018064415</millis>
+  <sequence>64</sequence>
+  <logger>com.fabiel.npmregistryserver.NPMRegistryServer</logger>
+  <level>SEVERE</level>
+  <class>com.fabiel.npmregistryserver.NPMRegistryServer$1$1</class>
+  <method>handle</method>
+  <thread>13</thread>
+  <exception>
+    <message>java.io.IOException: content type no requerido text/html</message>
+    <frame>
+      <class>com.fabiel.npmregistryserver.NPMRegistryServer$1$1</class>
+      <method>fallback</method>
+      <line>295</line>
+    </frame>
+    <frame>
+      <class>com.fabiel.npmregistryserver.NPMRegistryServer$1$1</class>
+      <method>handle</method>
+      <line>170</line>
+    </frame>
+    <frame>
+      <class>com.sun.net.httpserver.Filter$Chain</class>
+      <method>doFilter</method>
+      <line>79</line>
+    </frame>
+    <frame>
+      <class>sun.net.httpserver.AuthFilter</class>
+      <method>doFilter</method>
+      <line>83</line>
+    </frame>
+    <frame>
+      <class>com.sun.net.httpserver.Filter$Chain</class>
+      <method>doFilter</method>
+      <line>82</line>
+    </frame>
+    <frame>
+      <class>sun.net.httpserver.ServerImpl$Exchange$LinkHandler</class>
+      <method>handle</method>
+      <line>675</line>
+    </frame>
+    <frame>
+      <class>com.sun.net.httpserver.Filter$Chain</class>
+      <method>doFilter</method>
+      <line>79</line>
+    </frame>
+    <frame>
+      <class>sun.net.httpserver.ServerImpl$Exchange</class>
+      <method>run</method>
+      <line>647</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor</class>
+      <method>runWorker</method>
+      <line>1142</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor$Worker</class>
+      <method>run</method>
+      <line>617</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <method>run</method>
+      <line>745</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2016-07-20T12:34:24</date>
+  <millis>1469018064976</millis>
+  <sequence>65</sequence>
+  <logger>com.fabiel.npmregistryserver.NPMRegistryServer</logger>
+  <level>WARNING</level>
+  <class>com.fabiel.npmregistryserver.NPMRegistryServer$1$1</class>
+  <method>notFound</method>
+  <thread>19</thread>
+  <message>404 /glob</message>
+</record>
+<record>
+  <date>2016-07-20T12:34:24</date>
+  <millis>1469018064980</millis>
+  <sequence>66</sequence>
+  <logger>com.fabiel.npmregistryserver.NPMRegistryServer</logger>
+  <level>SEVERE</level>
+  <class>com.fabiel.npmregistryserver.NPMRegistryServer$1$1</class>
+  <method>handle</method>
+  <thread>19</thread>
+  <exception>
+    <message>java.io.IOException: content type no requerido text/html</message>
+    <frame>
+      <class>com.fabiel.npmregistryserver.NPMRegistryServer$1$1</class>
+      <method>fallback</method>
+      <line>295</line>
+    </frame>
+    <frame>
+      <class>com.fabiel.npmregistryserver.NPMRegistryServer$1$1</class>
+      <method>handle</method>
+      <line>170</line>
+    </frame>
+    <frame>
+      <class>com.sun.net.httpserver.Filter$Chain</class>
+      <method>doFilter</method>
+      <line>79</line>
+    </frame>
+    <frame>
+      <class>sun.net.httpserver.AuthFilter</class>
+      <method>doFilter</method>
+      <line>83</line>
+    </frame>
+    <frame>
+      <class>com.sun.net.httpserver.Filter$Chain</class>
+      <method>doFilter</method>
+      <line>82</line>
+    </frame>
+    <frame>
+      <class>sun.net.httpserver.ServerImpl$Exchange$LinkHandler</class>
+      <method>handle</method>
+      <line>675</line>
+    </frame>
+    <frame>
+      <class>com.sun.net.httpserver.Filter$Chain</class>
+      <method>doFilter</method>
+      <line>79</line>
+    </frame>
+    <frame>
+      <class>sun.net.httpserver.ServerImpl$Exchange</class>
+      <method>run</method>
+      <line>647</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor</class>
+      <method>runWorker</method>
+      <line>1142</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor$Worker</class>
+      <method>run</method>
+      <line>617</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <method>run</method>
+      <line>745</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2016-07-20T12:34:25</date>
+  <millis>1469018065035</millis>
+  <sequence>67</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>22</thread>
+  <message> trying download from internet http://registry.npmjs.org/debug</message>
+</record>
+<record>
+  <date>2016-07-20T12:34:25</date>
+  <millis>1469018065113</millis>
+  <sequence>68</sequence>
+  <logger>com.fabiel.npmregistryserver.NPMRegistryServer</logger>
+  <level>WARNING</level>
+  <class>com.fabiel.npmregistryserver.NPMRegistryServer$1$1</class>
+  <method>notFound</method>
+  <thread>15</thread>
+  <message>404 /strong-data-uri</message>
+</record>
+<record>
+  <date>2016-07-20T12:34:25</date>
+  <millis>1469018065122</millis>
+  <sequence>69</sequence>
+  <logger>com.fabiel.npmregistryserver.NPMRegistryServer</logger>
+  <level>SEVERE</level>
+  <class>com.fabiel.npmregistryserver.NPMRegistryServer$1$1</class>
+  <method>handle</method>
+  <thread>15</thread>
+  <exception>
+    <message>java.io.IOException: content type no requerido text/html</message>
+    <frame>
+      <class>com.fabiel.npmregistryserver.NPMRegistryServer$1$1</class>
+      <method>fallback</method>
+      <line>295</line>
+    </frame>
+    <frame>
+      <class>com.fabiel.npmregistryserver.NPMRegistryServer$1$1</class>
+      <method>handle</method>
+      <line>170</line>
+    </frame>
+    <frame>
+      <class>com.sun.net.httpserver.Filter$Chain</class>
+      <method>doFilter</method>
+      <line>79</line>
+    </frame>
+    <frame>
+      <class>sun.net.httpserver.AuthFilter</class>
+      <method>doFilter</method>
+      <line>83</line>
+    </frame>
+    <frame>
+      <class>com.sun.net.httpserver.Filter$Chain</class>
+      <method>doFilter</method>
+      <line>82</line>
+    </frame>
+    <frame>
+      <class>sun.net.httpserver.ServerImpl$Exchange$LinkHandler</class>
+      <method>handle</method>
+      <line>675</line>
+    </frame>
+    <frame>
+      <class>com.sun.net.httpserver.Filter$Chain</class>
+      <method>doFilter</method>
+      <line>79</line>
+    </frame>
+    <frame>
+      <class>sun.net.httpserver.ServerImpl$Exchange</class>
+      <method>run</method>
+      <line>647</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor</class>
+      <method>runWorker</method>
+      <line>1142</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor$Worker</class>
+      <method>run</method>
+      <line>617</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <method>run</method>
+      <line>745</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2016-07-20T12:34:26</date>
+  <millis>1469018066091</millis>
+  <sequence>70</sequence>
+  <logger>com.fabiel.npmregistryserver.NPMRegistryServer</logger>
+  <level>WARNING</level>
+  <class>com.fabiel.npmregistryserver.NPMRegistryServer$1$1</class>
+  <method>notFound</method>
+  <thread>24</thread>
+  <message>404 /serve-favicon</message>
+</record>
+<record>
+  <date>2016-07-20T12:34:26</date>
+  <millis>1469018066107</millis>
+  <sequence>71</sequence>
+  <logger>com.fabiel.npmregistryserver.NPMRegistryServer</logger>
+  <level>SEVERE</level>
+  <class>com.fabiel.npmregistryserver.NPMRegistryServer$1$1</class>
+  <method>handle</method>
+  <thread>24</thread>
+  <exception>
+    <message>java.io.IOException: content type no requerido text/html</message>
+    <frame>
+      <class>com.fabiel.npmregistryserver.NPMRegistryServer$1$1</class>
+      <method>fallback</method>
+      <line>295</line>
+    </frame>
+    <frame>
+      <class>com.fabiel.npmregistryserver.NPMRegistryServer$1$1</class>
+      <method>handle</method>
+      <line>170</line>
+    </frame>
+    <frame>
+      <class>com.sun.net.httpserver.Filter$Chain</class>
+      <method>doFilter</method>
+      <line>79</line>
+    </frame>
+    <frame>
+      <class>sun.net.httpserver.AuthFilter</class>
+      <method>doFilter</method>
+      <line>83</line>
+    </frame>
+    <frame>
+      <class>com.sun.net.httpserver.Filter$Chain</class>
+      <method>doFilter</method>
+      <line>82</line>
+    </frame>
+    <frame>
+      <class>sun.net.httpserver.ServerImpl$Exchange$LinkHandler</class>
+      <method>handle</method>
+      <line>675</line>
+    </frame>
+    <frame>
+      <class>com.sun.net.httpserver.Filter$Chain</class>
+      <method>doFilter</method>
+      <line>79</line>
+    </frame>
+    <frame>
+      <class>sun.net.httpserver.ServerImpl$Exchange</class>
+      <method>run</method>
+      <line>647</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor</class>
+      <method>runWorker</method>
+      <line>1142</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor$Worker</class>
+      <method>run</method>
+      <line>617</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <method>run</method>
+      <line>745</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2016-07-20T12:34:26</date>
+  <millis>1469018066123</millis>
+  <sequence>72</sequence>
+  <logger>com.fabiel.npmregistryserver.NPMRegistryServer</logger>
+  <level>WARNING</level>
+  <class>com.fabiel.npmregistryserver.NPMRegistryServer$1$1</class>
+  <method>notFound</method>
+  <thread>27</thread>
+  <message>404 /express</message>
+</record>
+<record>
+  <date>2016-07-20T12:34:26</date>
+  <millis>1469018066157</millis>
+  <sequence>73</sequence>
+  <logger>com.fabiel.npmregistryserver.NPMRegistryServer</logger>
+  <level>SEVERE</level>
+  <class>com.fabiel.npmregistryserver.NPMRegistryServer$1$1</class>
+  <method>handle</method>
+  <thread>27</thread>
+  <exception>
+    <message>java.io.IOException: content type no requerido text/html</message>
+    <frame>
+      <class>com.fabiel.npmregistryserver.NPMRegistryServer$1$1</class>
+      <method>fallback</method>
+      <line>295</line>
+    </frame>
+    <frame>
+      <class>com.fabiel.npmregistryserver.NPMRegistryServer$1$1</class>
+      <method>handle</method>
+      <line>170</line>
+    </frame>
+    <frame>
+      <class>com.sun.net.httpserver.Filter$Chain</class>
+      <method>doFilter</method>
+      <line>79</line>
+    </frame>
+    <frame>
+      <class>sun.net.httpserver.AuthFilter</class>
+      <method>doFilter</method>
+      <line>83</line>
+    </frame>
+    <frame>
+      <class>com.sun.net.httpserver.Filter$Chain</class>
+      <method>doFilter</method>
+      <line>82</line>
+    </frame>
+    <frame>
+      <class>sun.net.httpserver.ServerImpl$Exchange$LinkHandler</class>
+      <method>handle</method>
+      <line>675</line>
+    </frame>
+    <frame>
+      <class>com.sun.net.httpserver.Filter$Chain</class>
+      <method>doFilter</method>
+      <line>79</line>
+    </frame>
+    <frame>
+      <class>sun.net.httpserver.ServerImpl$Exchange</class>
+      <method>run</method>
+      <line>647</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor</class>
+      <method>runWorker</method>
+      <line>1142</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor$Worker</class>
+      <method>run</method>
+      <line>617</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <method>run</method>
+      <line>745</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2016-07-20T12:34:26</date>
+  <millis>1469018066637</millis>
+  <sequence>74</sequence>
+  <logger>com.fabiel.npmregistryserver.NPMRegistryServer</logger>
+  <level>WARNING</level>
+  <class>com.fabiel.npmregistryserver.NPMRegistryServer$1$1</class>
+  <method>notFound</method>
+  <thread>25</thread>
+  <message>404 /which</message>
+</record>
+<record>
+  <date>2016-07-20T12:34:26</date>
+  <millis>1469018066648</millis>
+  <sequence>75</sequence>
+  <logger>com.fabiel.npmregistryserver.NPMRegistryServer</logger>
+  <level>SEVERE</level>
+  <class>com.fabiel.npmregistryserver.NPMRegistryServer$1$1</class>
+  <method>handle</method>
+  <thread>25</thread>
+  <exception>
+    <message>java.io.IOException: content type no requerido text/html</message>
+    <frame>
+      <class>com.fabiel.npmregistryserver.NPMRegistryServer$1$1</class>
+      <method>fallback</method>
+      <line>295</line>
+    </frame>
+    <frame>
+      <class>com.fabiel.npmregistryserver.NPMRegistryServer$1$1</class>
+      <method>handle</method>
+      <line>170</line>
+    </frame>
+    <frame>
+      <class>com.sun.net.httpserver.Filter$Chain</class>
+      <method>doFilter</method>
+      <line>79</line>
+    </frame>
+    <frame>
+      <class>sun.net.httpserver.AuthFilter</class>
+      <method>doFilter</method>
+      <line>83</line>
+    </frame>
+    <frame>
+      <class>com.sun.net.httpserver.Filter$Chain</class>
+      <method>doFilter</method>
+      <line>82</line>
+    </frame>
+    <frame>
+      <class>sun.net.httpserver.ServerImpl$Exchange$LinkHandler</class>
+      <method>handle</method>
+      <line>675</line>
+    </frame>
+    <frame>
+      <class>com.sun.net.httpserver.Filter$Chain</class>
+      <method>doFilter</method>
+      <line>79</line>
+    </frame>
+    <frame>
+      <class>sun.net.httpserver.ServerImpl$Exchange</class>
+      <method>run</method>
+      <line>647</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor</class>
+      <method>runWorker</method>
+      <line>1142</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor$Worker</class>
+      <method>run</method>
+      <line>617</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <method>run</method>
+      <line>745</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2016-07-20T12:34:26</date>
+  <millis>1469018066720</millis>
+  <sequence>76</sequence>
+  <logger>com.fabiel.npmregistryserver.NPMRegistryServer</logger>
+  <level>WARNING</level>
+  <class>com.fabiel.npmregistryserver.NPMRegistryServer$1$1</class>
+  <method>notFound</method>
+  <thread>26</thread>
+  <message>404 /ws</message>
+</record>
+<record>
+  <date>2016-07-20T12:34:26</date>
+  <millis>1469018066725</millis>
+  <sequence>77</sequence>
+  <logger>com.fabiel.npmregistryserver.NPMRegistryServer</logger>
+  <level>SEVERE</level>
+  <class>com.fabiel.npmregistryserver.NPMRegistryServer$1$1</class>
+  <method>handle</method>
+  <thread>26</thread>
+  <exception>
+    <message>java.io.IOException: content type no requerido text/html</message>
+    <frame>
+      <class>com.fabiel.npmregistryserver.NPMRegistryServer$1$1</class>
+      <method>fallback</method>
+      <line>295</line>
+    </frame>
+    <frame>
+      <class>com.fabiel.npmregistryserver.NPMRegistryServer$1$1</class>
+      <method>handle</method>
+      <line>170</line>
+    </frame>
+    <frame>
+      <class>com.sun.net.httpserver.Filter$Chain</class>
+      <method>doFilter</method>
+      <line>79</line>
+    </frame>
+    <frame>
+      <class>sun.net.httpserver.AuthFilter</class>
+      <method>doFilter</method>
+      <line>83</line>
+    </frame>
+    <frame>
+      <class>com.sun.net.httpserver.Filter$Chain</class>
+      <method>doFilter</method>
+      <line>82</line>
+    </frame>
+    <frame>
+      <class>sun.net.httpserver.ServerImpl$Exchange$LinkHandler</class>
+      <method>handle</method>
+      <line>675</line>
+    </frame>
+    <frame>
+      <class>com.sun.net.httpserver.Filter$Chain</class>
+      <method>doFilter</method>
+      <line>79</line>
+    </frame>
+    <frame>
+      <class>sun.net.httpserver.ServerImpl$Exchange</class>
+      <method>run</method>
+      <line>647</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor</class>
+      <method>runWorker</method>
+      <line>1142</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor$Worker</class>
+      <method>run</method>
+      <line>617</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <method>run</method>
+      <line>745</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2016-07-20T12:34:26</date>
+  <millis>1469018066802</millis>
+  <sequence>78</sequence>
+  <logger>com.fabiel.npmregistryserver.NPMRegistryServer</logger>
+  <level>WARNING</level>
+  <class>com.fabiel.npmregistryserver.NPMRegistryServer$1$1</class>
+  <method>notFound</method>
+  <thread>21</thread>
+  <message>404 /rc</message>
+</record>
+<record>
+  <date>2016-07-20T12:34:26</date>
+  <millis>1469018066815</millis>
+  <sequence>79</sequence>
+  <logger>com.fabiel.npmregistryserver.NPMRegistryServer</logger>
+  <level>SEVERE</level>
+  <class>com.fabiel.npmregistryserver.NPMRegistryServer$1$1</class>
+  <method>handle</method>
+  <thread>21</thread>
+  <exception>
+    <message>java.io.IOException: content type no requerido text/html</message>
+    <frame>
+      <class>com.fabiel.npmregistryserver.NPMRegistryServer$1$1</class>
+      <method>fallback</method>
+      <line>295</line>
+    </frame>
+    <frame>
+      <class>com.fabiel.npmregistryserver.NPMRegistryServer$1$1</class>
+      <method>handle</method>
+      <line>170</line>
+    </frame>
+    <frame>
+      <class>com.sun.net.httpserver.Filter$Chain</class>
+      <method>doFilter</method>
+      <line>79</line>
+    </frame>
+    <frame>
+      <class>sun.net.httpserver.AuthFilter</class>
+      <method>doFilter</method>
+      <line>83</line>
+    </frame>
+    <frame>
+      <class>com.sun.net.httpserver.Filter$Chain</class>
+      <method>doFilter</method>
+      <line>82</line>
+    </frame>
+    <frame>
+      <class>sun.net.httpserver.ServerImpl$Exchange$LinkHandler</class>
+      <method>handle</method>
+      <line>675</line>
+    </frame>
+    <frame>
+      <class>com.sun.net.httpserver.Filter$Chain</class>
+      <method>doFilter</method>
+      <line>79</line>
+    </frame>
+    <frame>
+      <class>sun.net.httpserver.ServerImpl$Exchange</class>
+      <method>run</method>
+      <line>647</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor</class>
+      <method>runWorker</method>
+      <line>1142</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor$Worker</class>
+      <method>run</method>
+      <line>617</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <method>run</method>
+      <line>745</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2016-07-20T12:34:27</date>
+  <millis>1469018067153</millis>
+  <sequence>80</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>no existe localmente = /ws/-/ws-1.1.0.tgz</message>
+</record>
+<record>
+  <date>2016-07-20T12:34:27</date>
+  <millis>1469018067160</millis>
+  <sequence>81</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message> trying download from internet http://registry.npmjs.org/ws/-/ws-1.1.0.tgz</message>
+</record>
+<record>
+  <date>2016-07-20T12:34:27</date>
+  <millis>1469018067397</millis>
+  <sequence>82</sequence>
+  <logger>com.fabiel.npmregistryserver.NPMRegistryServer</logger>
+  <level>WARNING</level>
+  <class>com.fabiel.npmregistryserver.NPMRegistryServer$1$1</class>
+  <method>notFound</method>
+  <thread>23</thread>
+  <message>404 /semver</message>
+</record>
+<record>
+  <date>2016-07-20T12:34:27</date>
+  <millis>1469018067413</millis>
+  <sequence>83</sequence>
+  <logger>com.fabiel.npmregistryserver.NPMRegistryServer</logger>
+  <level>SEVERE</level>
+  <class>com.fabiel.npmregistryserver.NPMRegistryServer$1$1</class>
+  <method>handle</method>
+  <thread>23</thread>
+  <exception>
+    <message>java.io.IOException: content type no requerido text/html</message>
+    <frame>
+      <class>com.fabiel.npmregistryserver.NPMRegistryServer$1$1</class>
+      <method>fallback</method>
+      <line>295</line>
+    </frame>
+    <frame>
+      <class>com.fabiel.npmregistryserver.NPMRegistryServer$1$1</class>
+      <method>handle</method>
+      <line>170</line>
+    </frame>
+    <frame>
+      <class>com.sun.net.httpserver.Filter$Chain</class>
+      <method>doFilter</method>
+      <line>79</line>
+    </frame>
+    <frame>
+      <class>sun.net.httpserver.AuthFilter</class>
+      <method>doFilter</method>
+      <line>83</line>
+    </frame>
+    <frame>
+      <class>com.sun.net.httpserver.Filter$Chain</class>
+      <method>doFilter</method>
+      <line>82</line>
+    </frame>
+    <frame>
+      <class>sun.net.httpserver.ServerImpl$Exchange$LinkHandler</class>
+      <method>handle</method>
+      <line>675</line>
+    </frame>
+    <frame>
+      <class>com.sun.net.httpserver.Filter$Chain</class>
+      <method>doFilter</method>
+      <line>79</line>
+    </frame>
+    <frame>
+      <class>sun.net.httpserver.ServerImpl$Exchange</class>
+      <method>run</method>
+      <line>647</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor</class>
+      <method>runWorker</method>
+      <line>1142</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor$Worker</class>
+      <method>run</method>
+      <line>617</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <method>run</method>
+      <line>745</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2016-07-20T12:34:27</date>
+  <millis>1469018067616</millis>
+  <sequence>84</sequence>
+  <logger>com.fabiel.npmregistryserver.NPMRegistryServer</logger>
+  <level>WARNING</level>
+  <class>com.fabiel.npmregistryserver.NPMRegistryServer$1$1</class>
+  <method>notFound</method>
+  <thread>22</thread>
+  <message>404 /debug</message>
+</record>
+<record>
+  <date>2016-07-20T12:34:27</date>
+  <millis>1469018067633</millis>
+  <sequence>85</sequence>
+  <logger>com.fabiel.npmregistryserver.NPMRegistryServer</logger>
+  <level>SEVERE</level>
+  <class>com.fabiel.npmregistryserver.NPMRegistryServer$1$1</class>
+  <method>handle</method>
+  <thread>22</thread>
+  <exception>
+    <message>java.io.IOException: content type no requerido text/html</message>
+    <frame>
+      <class>com.fabiel.npmregistryserver.NPMRegistryServer$1$1</class>
+      <method>fallback</method>
+      <line>295</line>
+    </frame>
+    <frame>
+      <class>com.fabiel.npmregistryserver.NPMRegistryServer$1$1</class>
+      <method>handle</method>
+      <line>170</line>
+    </frame>
+    <frame>
+      <class>com.sun.net.httpserver.Filter$Chain</class>
+      <method>doFilter</method>
+      <line>79</line>
+    </frame>
+    <frame>
+      <class>sun.net.httpserver.AuthFilter</class>
+      <method>doFilter</method>
+      <line>83</line>
+    </frame>
+    <frame>
+      <class>com.sun.net.httpserver.Filter$Chain</class>
+      <method>doFilter</method>
+      <line>82</line>
+    </frame>
+    <frame>
+      <class>sun.net.httpserver.ServerImpl$Exchange$LinkHandler</class>
+      <method>handle</method>
+      <line>675</line>
+    </frame>
+    <frame>
+      <class>com.sun.net.httpserver.Filter$Chain</class>
+      <method>doFilter</method>
+      <line>79</line>
+    </frame>
+    <frame>
+      <class>sun.net.httpserver.ServerImpl$Exchange</class>
+      <method>run</method>
+      <line>647</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor</class>
+      <method>runWorker</method>
+      <line>1142</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor$Worker</class>
+      <method>run</method>
+      <line>617</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <method>run</method>
+      <line>745</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2016-07-20T12:34:28</date>
+  <millis>1469018068170</millis>
+  <sequence>86</sequence>
+  <logger>com.fabiel.npmregistryserver.NPMRegistryServer</logger>
+  <level>WARNING</level>
+  <class>com.fabiel.npmregistryserver.NPMRegistryServer$1$1</class>
+  <method>notFound</method>
+  <thread>16</thread>
+  <message>404 /ws/-/ws-1.1.0.tgz</message>
+</record>
+<record>
+  <date>2016-07-20T12:34:28</date>
+  <millis>1469018068184</millis>
+  <sequence>87</sequence>
+  <logger>com.fabiel.npmregistryserver.NPMRegistryServer</logger>
+  <level>SEVERE</level>
+  <class>com.fabiel.npmregistryserver.NPMRegistryServer$1$1</class>
+  <method>handle</method>
+  <thread>16</thread>
+  <exception>
+    <message>java.io.IOException: content type no requerido text/html</message>
+    <frame>
+      <class>com.fabiel.npmregistryserver.NPMRegistryServer$1$1</class>
+      <method>fallback</method>
+      <line>295</line>
+    </frame>
+    <frame>
+      <class>com.fabiel.npmregistryserver.NPMRegistryServer$1$1</class>
+      <method>handle</method>
+      <line>201</line>
+    </frame>
+    <frame>
+      <class>com.sun.net.httpserver.Filter$Chain</class>
+      <method>doFilter</method>
+      <line>79</line>
+    </frame>
+    <frame>
+      <class>sun.net.httpserver.AuthFilter</class>
+      <method>doFilter</method>
+      <line>83</line>
+    </frame>
+    <frame>
+      <class>com.sun.net.httpserver.Filter$Chain</class>
+      <method>doFilter</method>
+      <line>82</line>
+    </frame>
+    <frame>
+      <class>sun.net.httpserver.ServerImpl$Exchange$LinkHandler</class>
+      <method>handle</method>
+      <line>675</line>
+    </frame>
+    <frame>
+      <class>com.sun.net.httpserver.Filter$Chain</class>
+      <method>doFilter</method>
+      <line>79</line>
+    </frame>
+    <frame>
+      <class>sun.net.httpserver.ServerImpl$Exchange</class>
+      <method>run</method>
+      <line>647</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor</class>
+      <method>runWorker</method>
+      <line>1142</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor$Worker</class>
+      <method>run</method>
+      <line>617</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <method>run</method>
+      <line>745</line>
+    </frame>
+  </exception>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2016-07-20T12:34:35</date>
+  <millis>1469018075170</millis>
+  <sequence>0</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>9</thread>
+  <message>hostname = user-pc</message>
+</record>
+<record>
+  <date>2016-07-20T12:34:35</date>
+  <millis>1469018075350</millis>
+  <sequence>1</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>9</thread>
+  <message>carpeta = /media/datos/app/java/npmserver/repo</message>
+</record>
+<record>
+  <date>2016-07-20T12:34:35</date>
+  <millis>1469018075403</millis>
+  <sequence>2</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>9</thread>
+  <message>running = 127.0.0.1:8,888</message>
+</record>
+<record>
+  <date>2016-07-20T12:34:35</date>
+  <millis>1469018075437</millis>
+  <sequence>3</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>9</thread>
+  <message>running = localhost:8,888</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2016-07-20T12:45:20</date>
+  <millis>1469018720161</millis>
+  <sequence>0</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>9</thread>
+  <message>hostname = user-pc</message>
+</record>
+<record>
+  <date>2016-07-20T12:45:20</date>
+  <millis>1469018720388</millis>
+  <sequence>1</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>9</thread>
+  <message>carpeta = /media/datos/app/java/npmserver/repo</message>
+</record>
+<record>
+  <date>2016-07-20T12:45:20</date>
+  <millis>1469018720454</millis>
+  <sequence>2</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>9</thread>
+  <message>running = 127.0.0.1:8,888</message>
+</record>
+<record>
+  <date>2016-07-20T12:45:20</date>
+  <millis>1469018720488</millis>
+  <sequence>3</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>9</thread>
+  <message>running = localhost:8,888</message>
+</record>
+<record>
+  <date>2016-07-20T12:46:50</date>
+  <millis>1469018810080</millis>
+  <sequence>4</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message> trying download from internet http://registry.npmjs.org/node-inspector</message>
+</record>
+<record>
+  <date>2016-07-20T12:47:10</date>
+  <millis>1469018830044</millis>
+  <sequence>5</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>  downloaded from internet /node-inspector</message>
+</record>
+<record>
+  <date>2016-07-20T12:47:10</date>
+  <millis>1469018830153</millis>
+  <sequence>6</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message> trying download from internet http://registry.npmjs.org/node-inspector</message>
+</record>
+<record>
+  <date>2016-07-20T12:47:22</date>
+  <millis>1469018842768</millis>
+  <sequence>7</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>  downloaded from internet /node-inspector</message>
+</record>
+<record>
+  <date>2016-07-20T12:47:22</date>
+  <millis>1469018842783</millis>
+  <sequence>8</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message> trying download from internet http://registry.npmjs.org/node-inspector</message>
+</record>
+<record>
+  <date>2016-07-20T12:47:28</date>
+  <millis>1469018848046</millis>
+  <sequence>9</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>  downloaded from internet /node-inspector</message>
+</record>
+<record>
+  <date>2016-07-20T12:47:28</date>
+  <millis>1469018848061</millis>
+  <sequence>10</sequence>
+  <logger>com.fabiel.npmregistryserver.NPMRegistryServer</logger>
+  <level>WARNING</level>
+  <class>com.fabiel.npmregistryserver.NPMRegistryServer$1$1</class>
+  <method>notFound</method>
+  <thread>13</thread>
+  <message>404 /node-inspector</message>
+</record>
+<record>
+  <date>2016-07-20T12:47:28</date>
+  <millis>1469018848109</millis>
+  <sequence>11</sequence>
+  <logger>com.fabiel.npmregistryserver.NPMRegistryServer</logger>
+  <level>SEVERE</level>
+  <class>com.fabiel.npmregistryserver.NPMRegistryServer$1$1</class>
+  <method>handle</method>
+  <thread>13</thread>
+  <exception>
+    <message>org.codehaus.jettison.json.JSONException: A JSONObject text must begin with '{' at character 2 of �     �Y�n�F����W.�@� �K�}�&gt;���Y��-$���o�i��"%�� .�]�g��������W1;��u�Y��}�f��y78.��)S��R�y���%�g������]�6/��VM_�K����_��q�]�����I�Z,������n�eg�+�C���,�"/�O����.���nW w��2E�O�����-(���o���E�_�|��yt��m�)��W0�U�x&gt;D���O~�1�v��������k��n?�m�l���� =L�;t�\TK � ���?�`�9g�|�
+�G���Y����|�*���6B��������i��$N���F��?�i���	�n�~�p�r��Y���4ST�k��"��ma�hos�����v���|�10����?���p���9.���*I�t),�.�A�(���M���U;0�`��#�R|1q��y8$L�Gj�/m�dOj���&lt;�%6�R9�XP�� 3�s\l��@��)�a�m���N-y��z���Z��3���&amp;�b��ik���;�/RL�� .�uBx-v�Zj:���Z��Z��3���������*�a���")�2����[&amp;vD����"�S��ak�F��-�0�M^0�b���u�q�L���e�r]�T��0;�,lT�������A7�W�lm������#	6y��R����2&amp;�����*y��
+,
+PB�]��Oo����_���=������T���j}�K�	����0� i&lt;����`�6�$p��,�T�q.�����L��z"������p�\!�(�K��wF��x�SP� -@���8��f'�&amp;7�&lt;A�����&gt;];g���z� �R�{��)����+�����;������[������+}������]	��eP�O,�������L�f�Np��Ke���x��-������N��H�������*8$���R��
+�[��
+�TY"���+Wb+����e����u���;�Y����Ba��i�BSw�s��N����J��jIA��S�������M;zb����2�2�"J�|W�K�g�7��Y�y�\�@�kL#�&lt;�,	�Ho�z�{�R���?��nT��$	mh?s���q���_��Pr&lt;�&gt;��cv��U�JU��}[�����C�k�X����������y�8U�c�;��&lt;��:������y�������jD6�Ei�����*\�A"\��Ym��^���!p�K��-[s�lG\i�0�mG��D��0��T\�`����g���  ���[�n�@��uEx�K���6R�tU�0��&lt;,�����H���3o��q��,"�f&lt;s�����+
+��+�6&lt;j���~TE��������^���i;����4������F�Nh0\M�����ck�eS_#:���Hz2��'�w�{���@���[_/e���]�����&gt;���ki.�����cXsC'�c��� +�B� &gt;�c2 �Fm��t�?�+C�v�Ex�4GO��98�����fD��r��Q&amp;�o�,|L��Z� ���Au���F�aB�S=X���k�Ct��)P��,�B����p��\��&amp;����"���t��}�'���}����=��������'�T]P��+���c��,}-��L:��}�X��_u�p/�?&gt;��E���M�~���F���UB��a.
+�B�H���d�r��O�[h;QO�@���������b�c[T�e�JeGO����y�*�1�����hU}�:&gt;�m��~�T�T�qK�k"�m��Z�y|�;
+iv������Ag�u������4_Cq�bv�J��	:�u�2�)tP���6���#[eY��u)��#�D�^C���8���+w��Y�/�-��������90���te��Pn�-���;���m������h�|�q�����l�H�C���S�4�{�'H�wR�.y�Z�|�*�**�d�8���L���=!��M����Lm�t�0��X�|LC��D�����OaA:j"��/��rS
+x7� �:�����*[{��������
+t��]w3���&lt;x�[�9���+���h�jm�sj�&gt;��q8:cdd��_���\�:#���3�����!��eD-��Qu�i1�A����l:���U��bM)������ ��o�4gr������% |�O����
+�~�z�U�L��@u�Te�w�T����T�1�j��B+&gt;��BF�0-B��b�S
+�Z0��vh
+�i�d�Qm����  ����MR�@�����H�ee��
+3�%VB�x���	���h�T{��YP������Wesa%����h�����-4����H+'8|G�����pL������,�����+��� �xulw�n^�G?+����\��Y
+�y���*��Q����7s��G����-��B����� ��HBoB�F��%,D���h0�~�����U����X�uq�{���xmg������� ��Z��{�Z���/D��9������1�(��U�)M����M3�"Q#���������M�j�AT��~���?j�[��^C������X�c1'��w����;oz����������&amp;�$��}�����e�9��2�S�&gt;Q�&gt;I�D#g����6�$16B@����p�9Dd~�W�_�y�����&lt;_{�`��y��5k;r�2���Yj�NsV�?� p�������:3���3���	O)�p8bW��v�@
+I���M`�""���)�]�UL�0	������t��
+  �����N�0E��;3�B�n�h���?(�
+Nf#���[eH��H�m�.&amp;��3��{��x�v)����������j��=��`����&amp;����1SMS����]�+.N���������V�R[C�c`q��)T;��z�v�����/��%��n�LY�!8��Pk����3�a����ciL���o"��!���*�����R��������L" C�2�le����hg���������&gt;0Up�\nB�LFZ� �H�**�&lt;1����e��6�7��+�H�o��K�v�v�vF��_h
+i���w�������eu|rW-v���d*��{���� �i:��������A��8*8��O#��	��R�������,��R?D)qi�m��(�NNN�q��Uz\#@����Z�����  �����n�0�o��r��t�Tm��I=������B�^�.f����!�D��Q�B���?~��v/.�j�_h���#�6��z�9��	?%&amp;��w��!v��g��hT�������Tz�&lt;��)�V�A���+�����f��I�Z ����&lt;SQ�,�R�
+b�	(�d��;r��[��=T9�?�7���_��hI����3������&amp;!�l��������K%X�P�XB����@�OZ���*u��t�~���,ce��`�&lt;'�{8����1��T�iq;9
+:��"p
+�A�;��X���K�HK��H&amp;8;���S+�cJ�Q*�'I0@���L��_�����V��� ���� �&amp;�}6Pf�2 �C�� ����2���KA�� [���K�dTm�*��#�4 �X�o���^�:��V2x �(��o 8)\�sQ��J�4I�rl�O���4 ;��@k��� �� T�S�����Y���JV�&gt;
+���o��J���6
+���L���A
+�v3���FP�u�8o�����XRL��Q��V:+�����X/���yB����q�7.J�U�(�m�������J`]�`�d3�v��L�����E�g�B��~i9����R
+q���W�Ff��&lt;��C'9���I_���Lz3��7���G3�`��Em�{���2����W5H��&lt;8�B�o�1�4�?���/_m6�)����M8R)���'���	��c)2�}�$���=�S�y�)�T��G3|S����;��\y7�,�*�pbG�@�|r�����N=_� �8t����}���Gi�^}q���h��8y�����6Y���j�\�s��g��%������c��-h6m�&gt;Z'�P���t����r�s�P4~ZkZ���   �����R�0�_�a�X�����]�s�����@���[_��?	`(��X��!�BS�~���N�$����&amp;4{�'C�$����Jaq����,���1D%��K��C�&gt;�C3�U*X�b��+sU�%!s��70:�	�U��Z��d���9K���TN�D�oz����d��*�Y�I@	�`�x�8�o��uco���&lt;f���?������r���Va����C�$76f��RuE�^�	�E�J�Y+-{h�[�M��7!U
+k��])�Y��fi `&lt;GP�5�[�a�|78P/�3���|r����6�9�������!�(EP-x����T��}�����t�N�F�����pF��p� X�&amp;���o�0�����Q�d$"��z��u��f2d���|�.�_y���I��m����O��kW�%z848M�wEv����T���g�)��zS����kmd?0��)��GL���"WJ����-'�uG�FW?K�&amp;����@����}�5�;���H�Z$o7�w
+!���f���k�i-�B�z�;p�z�����9U���t����u^��iS6K�d�H���%���\������#��Y���@P������y�-D�i�&lt;@���2(L�}�y_kiK_���������&lt;����W�������6(�6���x�*���T��C��������t�w   ����Ao�@���� z��K�4i���]X�����I{�o�[�vU44��\1���y�����.����_E���]^a?���������D=���������z��	F0U)�F]�f�SK�4�����wF�V��3�J���N�3��L&amp;Lf��G�B�S�!H7�O�v=&amp;�f�:9���a|��p`�c3���}�]k���#������vd���'z&amp;����:������GB��D��1p.�Q?�Qoo�S|�sO�?+]�
+)uH��%)������]	�/G�N������m��Qy��d�`Z"%����(N%r�}xq{noJ��]Q�����������fp�C;��Z,$���uVY��[Z?����~��D�D�Gb��{������_�z���O���'��3��M���m	Il-�7�/�K9�;�F��(`rR�FH�F��� c��na�H��k8�4��j��5����hx��tw��4�u&gt;�(���7�=�o�����\h40�[h�����e~2�����p4�U��&amp;�T,��h��B����q�S������5�Rh|  �����r�0����t�����O����$t�������_;����^�(�D��������,���!��U�&amp;h��~���LQ$�yF1��d�@6[�|�;d��h�7	�[���T���.��������w����^��%����zc�N���4���������p��|�P���p�uXL����l���]�]�]�`���bf�n�/�U\uU�Q���c�g,������D�A��2����4@[�T��2��p���`1�q)E�&gt;��j=���Qx��-E��&amp;H#����4��!Do���`�B�������@���2�+�Vc����q@�~��	U���J���d%3��Xs���W~��2a-Vh����;Y	r7[��^��L^��%�~&amp;����wob��M��V��TU(���L���^�2�U��+4�@�+J�\��(����&amp;Z��:���B;S�
+��I�.��x=s�LX�&lt;�#��j��HX'L����f`��FKdl�/�b9�a�M���������~NA��;   �����j�0�_ex�i�16��K��,����~���jW-n�P�z%A/��s�����k��g��+{X	��{���&amp;�yX �y��
+:7� 8T)��Z+`$�RrQzj��_aEOi�a�`}YU����`��\�P+o�����57y�eu���2��9�����3y��v�2���:��t����&amp;����!�dp�?�����3����1�7�tr�� }�(����7���)@VP����
+���;��F�O�`�Me��e��FA�[}}�vv���A+r*-Y����+iP�RN`j�*��wvS�_��"��$X�iF�]��	O�E5mO��1���L�x~�f����
+��X���@���������F�����}�OE���k���D��P���j&amp;)��u*gh��i)K9�r�)�p���yT����9n�qC6�X��0�m���x��S�N�8��S~  �����n�@�_%�:���]w}������H�FJ��{�1�%2"Rt�F�l��3���|Z}YQ-���z.4��!i5��&amp;�\�D���M��1�(�{,t��v����4&gt;���f�d�dV
+�y���1��4����qC,�wW��,l�c�k��C�7�d'���9�����������&lt;_x=�������������jC���x��c2����,��j�������#��A�S�=&gt;�;)�UT%����8/����u�v�VU!&lt;�E�����"D+�
+Y�������K������dU;�9�Z.��6=�{!�o4Z'��������iD������������VA�j.m��Uw����^xQ.!�
+��0N|���	���Q��d2���E�xs�X��&gt;�\	�"���x�Q;�����q�� �F�*�+��3O�E�-���\������;5vj��c�vq�f�C��B&amp;_���NW�LRJ���@��{��Q��UC������l�h�	��!����jL�.'����[O�c���K#�)X~M�?���G�������BM�J����/��8��c��Y�;.���}��[g�G��`y���G����  ����AS�0��
+���m�79y��/pf�	�Q�G��/	PT��(���t��4�|����C�Yk�����h���h��;:A�&lt;����G�F� ������|�,*�z���f���x���d����u_+|6���`��o������2�������g2����r��X��a�I�0��5i��8����vA����\k����6&lt;��g����Y��0-�2���L���m	��8��2/��2���f�����b$#"��5!�ptv�J�j��Y��J�xY��2gI^�(Q�SE�p��#�C���RZ?����z! ���|v�5~�m�y�g/�h;���:E�?*
+�	�9���E��s���kch,�7��Hvj����&amp;X�]��p�qS-\���0��4�O��G)�Fb�N�����o����V"W��j^/��.{���J��sKh�����f��U�`���]���nAal�K��=�z��\�%��)Jh��[�����$#Y:�n�w+W����4)N�X�Z3g���Ya3�6�QU�e�������u�g\����F�'x���H�����"&gt;�?�#��������j���Y�t&gt;"|S�����f��U���������]����YhNhnkO�_h�  �����j�0�_���lI���
+-�n��ZG&gt;NL��8i{��P�?�O�uN��l-��$`�`�l����� Mt"�F����_��I6�%�!4�t�.a���$�r_�5q?N�Kh� u������&gt;����Q;���8�����
+�����v����5�����t~������~��[�G:�������"�^�mUV�o`b$Gd5������4��!&gt;����t�mi����TT�N���F��L�P���h�+R�2�7y,���X���x�-&lt;�&lt;��&lt;r�b&amp;&lt;'&lt;�/Rx.L|����L�9i)�-����EXN�.oQ��c�l�:�����/�iv�	�%������i7�H�^:�s�0���g�
+b���&amp;������G���X����B����j��b�zW������Z��!���������������E�h�����Cka&amp;	������&amp;�*r�v&lt;���&lt;�I�d��?��@��&lt;���I����{�&lt;��h�����7��m1#)�0�WR��b+[�T�I5�&amp;��=��rqN�8PSi}�L��#�a0a��R���E|�  �����n�0E�����]�O"���TA%,����i�H(�����X�0w��w��r�~�\���i�5�2\���V�`/��C�9����J���v��r���-m2#2F��[��"Mk���E}Y9[���xn�!��9�[�����X��\��s�s�s������=l�d���w	���s�����&amp;�1D������H!:�)(�IT�)�����fSQAP)�� ���������K�$2���9i�W��+�p�P���n��^-���3��sxM�\;�+k&gt;�q�|J�s�s�s�s�s�k�e,��`����bp�����g���U�8W��-�G?Q�.�#����9hk?����p�1n����$���u�tq�L��:kb���Y*�c���g��8m�a:�&gt;m��K0�U��o   �����J�@�_E�c�&amp;�.A_�����F��$Q����NZk�J-U��])S3�����9K3?�'�8�����T�~o�x��]������%w�a.����cz���Mc� �]s��\���hpMS��o��s262qz)��S:�sg!���������K�Ig������m���"O�JW�D,�H����Led)$$��"G����q���|@o����s&lt;m�=�}�����z������������X_�Uq�s�����a��c{��9�������~�������K�J%*A�$l0+�Nuf�&lt;I�
+��zJ	�����4{�siV��L��F�4�G��J�����uE!�S���6�s	:�������u�������3B�P��.'�?�-gLm�Ii�����:���B:2��]�IkY�����
+q��w#{�-a!d���m&gt;�������3jm��������X2�ml�u!*��j?�~!�C�	�7�=���hh��?�u�u��N0����-]J��]�������O�
+�W�������g�F�m�/�^   �����n�0�_uo����"U�C�N������D,P�&gt;}��B(P$Te�k��7��|�s~������j��Z0�1�����o��7QP�I�c$ s;E�[Zh�I�|�O��\$�Or\�3�����M
+m���D����i0"w����s�2d�����3��o�.���&lt;���������9�E0a��:q��� ���V����h��&gt;�8E9�cC��P]{��E9�:����.i5��Uc��3j����-m6Lu���S���h�����9[Z��%[Z����,-qENA~S&gt;�Tf9�.�6��*hc	q��4
+_� ������L�p&gt;Q� pA��R?%d�S��s�3�LbS����:���xKum����L���N^�:5��^SS���.���P�j`������.��?-m5yF&amp;Y&lt;|���Y?��V�Z]�'/����5ZW��p;(%vB)�?"vBi��   ����_o�0����������U��*c�
+�}���a]���P5��D� F�|�=�&gt;����=��]�����e)��6 H�p��h��r&amp;��B�v�w�����R]@����������2G���p4?gRK��96��������{��?�:80'�Y0���wl;���Kw�{�|W0U����1��NTw�v"����q8���8�Y���g&gt;���yl;��7�7�Is���b�
+�8��2��MO�0�+sg�����P��2S�{�L�L��fH+���Iy�x�J�!9B�z��!G��v�
+���W.��He���!Z�5 ���yLq;PfZU_)�9a]�=WV��x��}\��Bw&lt;Q���@��Ip�7����,����+��v�iv��i�D�(wM�H
+eJDY�t��R�7"��L�3��#�$���03�0&amp;	�rc���U����aH�$1����Pw����yl�O_���&gt;%rfb��Z��qsc�(��Y0.\��gD�dM^2�L����`9��0s�wy-&lt;�������Y &amp;��J���{�����Q��H\��Em����� �ub�_�v+.r;���Z��Y,�&gt;����������;��������_�]3�f��}|��U�~,�	�\o����l�&gt;k���G�^��  ���]y����*l��qA��(J��W��m,�h���#i�c)���w�on���"A�+�����w3$���c��/xz������R6��8Y,�y��)�E�.���^��U�d[W������&lt;��������d��?.�td���j�7+���f"����5�1Zy'�0^��j�����L�Q����
+o)M(	�"L�8/��L�(+��CJ&lt;?���&lt;�����U�������&lt;�n=�n=�.:x=��	?$�9/&lt;��=$��2�%�Q�^K[�������$��0��L��BRX���w��D���,��l�a�M�-��s_�K�8�x��e���*Z��;pF�.+�e�g�*7�e�mn��&amp;YI��2J�����30'�&amp;E�H�&lt;G+5�Ep����a��B	QVe��E�D�(��� �}h$/�e����Q6��I�2_��u�Li��4�@�)%���-� P=@�rQH^0'� ^�U�&amp;��c)�Ik���0�]�i�����^n�������OV�|��� ��K��2� �aW�w�)6I,� O�ebx�al��@/�`9��h��C�'��$��L��[5�r'��$L3�-SZ^^��4d4�����&amp;�]��iX)��,���J���h/^�PQ�t�3�H&amp;p�u�2������&amp;P ��l�.#Ttmk$qGP+�)������]a���N���*����1���Yl�C|�8_������G�R��1�������e7�6�1 veA�
+�+��Ic��2Et�F��� Ju@�0�x�j��^[^4H�AbBT��%6�E-@�]��rL��85��f"��Tfb�`���'�Jd�L�@b�_�xZKY`U��Y�k���j����VE	�j����T�9�@2�0o����*dI"�^S30�����Ki�Y���&gt;-�	��0��#���0��J:J �v�l�@?C���2����q�\�P=�wA�p�&gt;�fQ�0��0��j���+CZ[EK�g$'-�x������R��2U�|��[��1����&amp;L�g4�r�50L��q�xt�k�~c�w��"%�=�J���X&amp;�3��������#�@�G��qG���#Ej��x��I���U�\�8���o)��4�Y&amp;Y�i�����;r�K���*e����GJ�=L35�]��C'���ZZ��/-�Q�;����pc������f�n$b���v�?�&amp;�{`o�+N�k-��n N�=�F^������4��r�%��	sr�A�����f�-�a�I����u���Ti�=�N'V9�7���8���A0�kL��.G��n[���D:^�������[���x��Y���B�it�;��Z�'6^��:��%
+���p!��&lt;�����;��Z�)&gt;���HNW�o�/�rE�1�D���;��d������h��A���QTr���k���&amp;C�����DMOg&gt;��1�r�tDIs-Ss�������c�9���9/����o!?q1����Tsb�������lr��YskA�y�zT���-i��q�9�P��k==���	!���Y=�-u&lt;b���&gt;��k�uR�Y�|�I�8�}h���'�����E�����]��N�|���������;`�a�I�-=3��uv�G���o��_���P���;�!j�[`�}A��NB���2��[K�������H�����i���.K�}���^�pO�J@:R]g d7&amp;������=�����gAO���qw�_���'[x'����%tm�-�9`�^�P���m�^gs�9WLi��������no��&gt;]��C[��a\�t���������v~p��:b2D�j+��";!�n���]&lt;F�52��� c�dG��Hhx�;���5�4������\�&gt;�P���u�H���T�u�yr��@S�;����;g�3b�'}���Y����lv�yb�)�v:Y�|U�����D�������g��l��*���Z�KcZ��] �����NVD%=������qU���:,�������&gt;!�^�3rS]��+�!�h����p�����;�Yk��5zi���8�/��r'd�����!��\�f0�Q4	��v���8-�$�"^��T���Q7h���~�����:�����u{Y/W����V�GD�HV�k���m��7�:#`�����|��#�Pz��fL����������'4��G��a.��z�������Y��R��Q}�=�5�O�&lt;l���c��%Y��������\qD��~��nD3oI���&gt;�����I��;�1��KK�C��&lt;�i0n��u���[L��/�'l������y�bfm���4��ih������b��v��;��~�������J���
+����o��M`��{,[R�i���K������&amp;X X�y�Qq.��cE=��������f��I� ������Y�,Y�������� �T��rk[��6O�{����{y�����R�V�3��������_~����/����k���%�,�_p�)���#�Y� ������W�������8��wi��#q�_��a��t���
+�����p�����M���:��}�(�"�J���t���$P�_Fe���&gt;�����e�0���������-,�/���9U���p�����&lt;�����%�;�~�&amp;�����dd��{VG�����"G�2�����SM��@�������[���J�	�����t?�����mK�C�q�I4x���,7�#������0���Ej��.y�s&lt;=��0�#ttU?���z��/�@���F��T��@lF&gt;�*�(��{ ���3�y��]A(|!@��P�� �;�GN�j��c���kR�;C=�
+�c��OF�/�CCW��gp�nBGy���qx��6@�k��A��z��s��Z����&lt;L:��8��� T�y���Q)��K�]�o�s�T|�����D�T#�`�ZI�o(���^|��w4�A��[I��/b�0oU��+����/�KB]�(�K���?(J�|��X�-'��r�j�j�#s;r��[0J�?O�|���u����ar�'����p/jkh�����sp��-@����Jp'��rh0`����{�e����z�DeF4���n�]^��gs1xL�}�!;�� iCoN�S��fh���{�G��{X��T���7���*Q�=J�N;�����)`:�p���u���y)��Rv�I�%,�b���]�h�������[hQQ"A��+^�H��D~��IVR��DDv;1�����nl��H0��w&lt;����po�Km5�Dt7�=��CK.O�|��������P�(��T���tJ�FQ�?K&gt;�0M��0��fA�lNx�����b����Xf�A~���
+d�Q�L���0HVv�4�  ����SG�������b�����b�0&amp;F9���B)K�E(H�:}�����=o���d%��9�#V�3==�o���H�sE�������/w�oo}������7[�?��h������} 1���+�������t&amp;du��M��B@�J�}�W7�7�f�21�J{I���%qR�,������$4X-He�t35|�h��;������h����1F�d\1D2���-�����RR��N�&amp;�x��p�W��1�v�@]�hZ�`���n�
+Zo���^|c���n1��o�H�'�]FlG@c�3K�A��c�r����\
+
+k
+Y�l�H�QN��nJG!9/��	x$c6HM�McD���r`pB_k��Z���'Ya8��e|]��$*�e��T�'Y)�^�_^5��#������(��G]~C�5�:�&amp;:��^5b����v���^����A���t&amp;��JyfhP{���f�~�%���l&lt;�@y�boZ���CNd~ue�.d8���j'��)Oqb9���R��9��&amp;�{� �G9VS������$�2ds$�T`��F/�\��sN���X��!yGo�C��%6�5��&gt;�O'!')H������]�al]Cp�@D�y�xp���1�DZ���{�Pn7P$��j�v�h(�H��e���]��������:R3��r����������	��������g($������O�)��y���k2�$���a`�/���0��N�5���qOM�|��5�+&lt;���N���1s@P�w��
+�}H�+0�_���x��J�Lah��#��H
+Q��LK�9S?��Xkq"5�(�6��Qx��2`H=�"5����W��b��Z�z����S�yB�b_l�N���,:S��9�o�K�$�m�&lt;������X�%������h��� ni���NX�,L��y����g+E������6�������.���a�`��1*O.�Eds�F���NCy*�������s ���}� )u��&amp;s��/�S�=���-���U�R�H�Dn�G����/�	�� �6Mny�b�3	�$J?m��K��_���� (S �0J��J��
+���X����:����B�P[�-�� �N�:���\Ln:����MWE�c�������W��H���}��&lt;t{��=�x�r�\(��!:)[�]������:w�`BE�&gt;PG�;=rQ��W�G�v��T?N����\)���~x����%�6��j����&gt;�J�hC�+�f���&lt;X��%K�N���	����aj���c������2P&gt;�W1��Y�\|��#������p�6q���@Y7�|r|���)�p��F�d���V[w����T�$!��e ��H��\E&amp;K�(3yU�
+I��4{����H���C��I7xD�hr�~���2!�!p�����������+�@lD���I���6���"`�B���z����I"p�����'&lt;�N�P�vvX��$��9��pK�+�I�d�#	�� ]Gfc��-��i�}@�G�����:?YAK�g�u���u�n�6���WF�F=��[��7�)b���w(�f�f���KT���jB��y�������)���AS�?��x��PU/�Qz����NX�&amp;��2��E���]+�����I��,5�8,e���5��4l�*DE�o����'3`���&lt;K���/�)D����{n�U�0�P`�_���&amp;RHYg���x;^���\����H����y�G���oZ�����r.����TA'�XK��A&lt;�rO��f�x�k�rE���w�$�����5"c��I8e��&amp;���������`Ouz�n��{�L+�Y�t��S�$����Fm��v�����S����M��9��������Z,.���/�]�&gt;�d�}&gt;�D�g8J����m�f�%_���#��t M�a����:��c����a��k�S���"�pF��I_ tc��a��X�����X��$J���V��K���,=[�)��l�Pv�g�y1��Y����� �P��GCf��������3����j�dT�B�X&lt;w|����T�kp��nm�4�a��P������	[L�/R`�,:����yf��|�.~i/�4�v&gt;Sa���ZV�-&amp;6SB�n8�@+��*g ��:SN���v�X�(��d�&gt;�94��g�*�)RVR%��h�1I��QU�Eq�89�-~w����n{)w�z;a@�2:���6��A����Nq7��I��.j�D�jg*������W�E���m���U���fo�	-�R����o�S.[G�v��
+y
+�w"�����a,���p�P�V��N%����2"��'d�,�^`v��o�-2�e�Q�q��]�v�qI��1��N�dQ)&gt;
+0�	�^�k����R�����u&amp;�k&gt;�U�`�6k�"GT��X���k���o���z@�B���G�J���&gt;U����z��fTN#]0�4����T����ot:��&lt;Wa��H��a��J���YU�����O�)�M�\��c�A�F�%���&gt;q�������c�c 3�I����-��C���,r��0�� t�j+(��Uh�Mb������������Zy�B���i�M�����g�cE^��Q"h4;T}��;�M*L�m����7G1�Jc���MH-oy�
+&gt;_��A:c�w��`�IzE&lt;�d�y��aP�����I��!����6���;�"�o7�A�B�a'�3�&gt;;��V����xvc�i�qZ��G��"�C�;]�/-�@�ol�����!?&lt;���!T��T�M���I��Z)����V��;Q���v���n��������H �t�Vh�������O��~�:�}��{�b��������H��#e����XN"g�����C����i\�/�O(�(_������(3���������U�V��k[[���M���i`g{*k	�8&lt;;��Y�2U�&gt;Q��.��;����z����Sg-�O�3��5�%om��rol�P����*/��&lt;�)r��J\���q�L����^c�w�7�H�^����'�U-��������������zd�1��[�Vr�,z�f���^��g	�� ��Q�+}s%����I���}�K%P���c�����X��o���43#Oes��VJ&amp;Y0(��v\��#Wt394�u��H�O9��:���$��_�Y�Fy]�9�[�5��%�i,.2��m ����cW����sl�~���j��?����������%���'����Uk�������G�e�����e�&gt;����K3����+��O��v��;!y�3YJ/�g���1IuVw'"��lR��YdMk�Q�'����IH�h/���u��a��l�i��x�	�N8.�[��!���p@��@��m�+��Jk4�m��?��"ya���?�M}6�s�P���(ZD�q�:0G����a��H~x�R"xS�zV�my���b�|u��c�6w2������s��M���|�Ww�3FV`�����-��@!/�����-���":2���`�X�4N�T=Me�hSk�&amp;�-'G���&gt;�����{�o����!1y�#�G�Wr�����X�@��-Y �^��  �����N[G�_��jQ�H��6���IICES�+��jB'H�0���e��y���3�{��qR��� ������|�gvaK_��G������%e�����,��m�;���QvX:fl�2�I3��$��"q��W�h�0�Cu(�Be�&amp;��H2�m�m
+[� ���p��O"������k��a�T���z��I���rn�_X�;/g�&amp;&gt;�_���v��
+�tw��]t����H?���������&amp;P��K%.L9QyE�bJ�R�r����������&gt;�[�w&lt;4$cc����{���Q#�������D�f��V�Y�a�X�JYm���(��T��-�������esm��K�I�,&gt;�{��_�ds�[{��mh����!����j�����*��qZ�����p����!x�x��b
+.L7��������V&lt;Y����EM�l�"���$�K����,�f,���"x���dk(�n�-�NF/��g^'�E&lt;����&gt;�UaF7�h�X0�G��,������OdY������f�8�k��7��FE�;8���@=o�~��S���c\���r���)��%9��]�@�"�~�]�jC	o)�(�&lt;�^�N1�H�� L��3���������n!RT�F_-�R�x�2� �2f�E�����7r�������MN�9q��^/��m�����OLo��*7���b��~,G���S���J������IA����2�H�����v��ltv��[+����rW�	U`j�����S��`�G&lt;?+��P�����p��(5���&amp;�6�+N����v�?�W{��w��D�C-V��D�2���,�w��=�4I��J���0w��Ud�W��)�r5�X}~�^R�{0�I�-�`�q�������WS��n+E�����DSu���x�+����B3�����f�bve�Y�6$q����c.[|�&lt;��e����n� O{X��"+����0�iwh�Mz_�:��2��XV��O������������j� ��A�����~*%�����:Ck�7� Q����4������a����&amp;�����D[B�^���_��el&lt;��&amp;5��9��R��/�e;�+1C�NOL$�&gt;�t�������A8��#7��y��&amp;�$.UlD!625���T$�����"�����	��V�"�wd%���K4������{�p���)�&lt;��r&lt;�����o�tn���/�����=��UCN�Dj���������o��������h�������?W�kJ ����7}7��kP���/�a����_u�IL�c�'9�����Np�2�w�����$'Dy�v��x� 7�w%�6��p"S~?�@_�k�p������w��C�S�S��K%���m[\��$��QN��!y;KM^�f����.)_�������S!�9'�Xs�qz���@��D?�?�iotp/�h\��@���3�@�������w?n�4�C�Xh�)����Q����`�%������8�k�*�f���W����v��K���-x��7����:u_�!�o�+T����Xp���_���k.��o:�d�=��+��QI��qSmf��d�&amp;����wW27�{�����]�|��K����f����]��D^����C�t�-l2]B����+�//���}CV </message>
+    <frame>
+      <class>org.codehaus.jettison.json.JSONTokener</class>
+      <method>syntaxError</method>
+      <line>463</line>
+    </frame>
+    <frame>
+      <class>org.codehaus.jettison.json.JSONObject</class>
+      <method>&lt;init&gt;</method>
+      <line>173</line>
+    </frame>
+    <frame>
+      <class>org.codehaus.jettison.json.JSONObject</class>
+      <method>&lt;init&gt;</method>
+      <line>280</line>
+    </frame>
+    <frame>
+      <class>com.fabiel.npmregistryserver.NPMRegistryServer$1$1</class>
+      <method>servirIndexJson</method>
+      <line>324</line>
+    </frame>
+    <frame>
+      <class>com.fabiel.npmregistryserver.NPMRegistryServer$1$1</class>
+      <method>handle</method>
+      <line>183</line>
+    </frame>
+    <frame>
+      <class>com.sun.net.httpserver.Filter$Chain</class>
+      <method>doFilter</method>
+      <line>79</line>
+    </frame>
+    <frame>
+      <class>sun.net.httpserver.AuthFilter</class>
+      <method>doFilter</method>
+      <line>83</line>
+    </frame>
+    <frame>
+      <class>com.sun.net.httpserver.Filter$Chain</class>
+      <method>doFilter</method>
+      <line>82</line>
+    </frame>
+    <frame>
+      <class>sun.net.httpserver.ServerImpl$Exchange$LinkHandler</class>
+      <method>handle</method>
+      <line>675</line>
+    </frame>
+    <frame>
+      <class>com.sun.net.httpserver.Filter$Chain</class>
+      <method>doFilter</method>
+      <line>79</line>
+    </frame>
+    <frame>
+      <class>sun.net.httpserver.ServerImpl$Exchange</class>
+      <method>run</method>
+      <line>647</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor</class>
+      <method>runWorker</method>
+      <line>1142</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor$Worker</class>
+      <method>run</method>
+      <line>617</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <method>run</method>
+      <line>745</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2016-07-20T12:47:35</date>
+  <millis>1469018855437</millis>
+  <sequence>15</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message> trying download from internet http://registry.npmjs.org/v8-profiler</message>
+</record>
+<record>
+  <date>2016-07-20T12:47:35</date>
+  <millis>1469018855373</millis>
+  <sequence>12</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message> trying download from internet http://registry.npmjs.org/strong-data-uri</message>
+</record>
+<record>
+  <date>2016-07-20T12:47:35</date>
+  <millis>1469018855410</millis>
+  <sequence>14</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message> trying download from internet http://registry.npmjs.org/v8-debug</message>
+</record>
+<record>
+  <date>2016-07-20T12:47:35</date>
+  <millis>1469018855407</millis>
+  <sequence>13</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>14</thread>
+  <message> trying download from internet http://registry.npmjs.org/biased-opener</message>
+</record>
+<record>
+  <date>2016-07-20T12:47:35</date>
+  <millis>1469018855801</millis>
+  <sequence>16</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>18</thread>
+  <message> trying download from internet http://registry.npmjs.org/async</message>
+</record>
+<record>
+  <date>2016-07-20T12:47:35</date>
+  <millis>1469018855820</millis>
+  <sequence>17</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>19</thread>
+  <message> trying download from internet http://registry.npmjs.org/semver</message>
+</record>
+<record>
+  <date>2016-07-20T12:47:35</date>
+  <millis>1469018855837</millis>
+  <sequence>18</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>20</thread>
+  <message> trying download from internet http://registry.npmjs.org/serve-favicon</message>
+</record>
+<record>
+  <date>2016-07-20T12:47:35</date>
+  <millis>1469018855845</millis>
+  <sequence>19</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>21</thread>
+  <message> trying download from internet http://registry.npmjs.org/path-is-absolute</message>
+</record>
+<record>
+  <date>2016-07-20T12:47:35</date>
+  <millis>1469018855879</millis>
+  <sequence>20</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>24</thread>
+  <message> trying download from internet http://registry.npmjs.org/which</message>
+</record>
+<record>
+  <date>2016-07-20T12:47:35</date>
+  <millis>1469018855890</millis>
+  <sequence>22</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>25</thread>
+  <message> trying download from internet http://registry.npmjs.org/ws</message>
+</record>
+<record>
+  <date>2016-07-20T12:47:36</date>
+  <millis>1469018856017</millis>
+  <sequence>24</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>22</thread>
+  <message> trying download from internet http://registry.npmjs.org/debug</message>
+</record>
+<record>
+  <date>2016-07-20T12:47:35</date>
+  <millis>1469018855886</millis>
+  <sequence>21</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>23</thread>
+  <message> trying download from internet http://registry.npmjs.org/glob</message>
+</record>
+<record>
+  <date>2016-07-20T12:47:36</date>
+  <millis>1469018856013</millis>
+  <sequence>23</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message> trying download from internet http://registry.npmjs.org/rc</message>
+</record>
+<record>
+  <date>2016-07-20T12:47:36</date>
+  <millis>1469018856027</millis>
+  <sequence>25</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>26</thread>
+  <message> trying download from internet http://registry.npmjs.org/yargs</message>
+</record>
+<record>
+  <date>2016-07-20T12:47:36</date>
+  <millis>1469018856060</millis>
+  <sequence>26</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>27</thread>
+  <message> trying download from internet http://registry.npmjs.org/express</message>
+</record>
+<record>
+  <date>2016-07-20T12:47:47</date>
+  <millis>1469018867498</millis>
+  <sequence>27</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>  downloaded from internet /rc</message>
+</record>
+<record>
+  <date>2016-07-20T12:47:47</date>
+  <millis>1469018867509</millis>
+  <sequence>28</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message> trying download from internet http://registry.npmjs.org/rc</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2016-07-20T12:53:00</date>
+  <millis>1469019180869</millis>
+  <sequence>0</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>9</thread>
+  <message>hostname = user-pc</message>
+</record>
+<record>
+  <date>2016-07-20T12:53:01</date>
+  <millis>1469019181105</millis>
+  <sequence>1</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>9</thread>
+  <message>carpeta = /media/datos/app/java/npmserver/repo</message>
+</record>
+<record>
+  <date>2016-07-20T12:53:01</date>
+  <millis>1469019181160</millis>
+  <sequence>2</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>9</thread>
+  <message>running = 127.0.0.1:8,888</message>
+</record>
+<record>
+  <date>2016-07-20T12:53:01</date>
+  <millis>1469019181193</millis>
+  <sequence>3</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>9</thread>
+  <message>running = localhost:8,888</message>
+</record>
+<record>
+  <date>2016-07-20T12:53:12</date>
+  <millis>1469019192844</millis>
+  <sequence>4</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message> trying download from internet http://registry.npmjs.org/node-inspector</message>
+</record>
+<record>
+  <date>2016-07-20T12:53:21</date>
+  <millis>1469019201616</millis>
+  <sequence>5</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>  downloaded from internet /node-inspector</message>
+</record>
+<record>
+  <date>2016-07-20T12:53:27</date>
+  <millis>1469019207955</millis>
+  <sequence>6</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>14</thread>
+  <message> trying download from internet http://registry.npmjs.org/biased-opener</message>
+</record>
+<record>
+  <date>2016-07-20T12:53:27</date>
+  <millis>1469019207988</millis>
+  <sequence>7</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message> trying download from internet http://registry.npmjs.org/strong-data-uri</message>
+</record>
+<record>
+  <date>2016-07-20T12:53:27</date>
+  <millis>1469019207999</millis>
+  <sequence>8</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message> trying download from internet http://registry.npmjs.org/v8-debug</message>
+</record>
+<record>
+  <date>2016-07-20T12:53:28</date>
+  <millis>1469019208069</millis>
+  <sequence>9</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message> trying download from internet http://registry.npmjs.org/v8-profiler</message>
+</record>
+<record>
+  <date>2016-07-20T12:53:28</date>
+  <millis>1469019208419</millis>
+  <sequence>12</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>19</thread>
+  <message> trying download from internet http://registry.npmjs.org/express</message>
+</record>
+<record>
+  <date>2016-07-20T12:53:28</date>
+  <millis>1469019208439</millis>
+  <sequence>13</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>21</thread>
+  <message> trying download from internet http://registry.npmjs.org/path-is-absolute</message>
+</record>
+<record>
+  <date>2016-07-20T12:53:28</date>
+  <millis>1469019208409</millis>
+  <sequence>10</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>18</thread>
+  <message> trying download from internet http://registry.npmjs.org/async</message>
+</record>
+<record>
+  <date>2016-07-20T12:53:28</date>
+  <millis>1469019208417</millis>
+  <sequence>11</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>20</thread>
+  <message> trying download from internet http://registry.npmjs.org/debug</message>
+</record>
+<record>
+  <date>2016-07-20T12:53:28</date>
+  <millis>1469019208494</millis>
+  <sequence>14</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>22</thread>
+  <message> trying download from internet http://registry.npmjs.org/glob</message>
+</record>
+<record>
+  <date>2016-07-20T12:53:28</date>
+  <millis>1469019208497</millis>
+  <sequence>15</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>24</thread>
+  <message> trying download from internet http://registry.npmjs.org/semver</message>
+</record>
+<record>
+  <date>2016-07-20T12:53:28</date>
+  <millis>1469019208516</millis>
+  <sequence>19</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message> trying download from internet http://registry.npmjs.org/yargs</message>
+</record>
+<record>
+  <date>2016-07-20T12:53:28</date>
+  <millis>1469019208521</millis>
+  <sequence>20</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>27</thread>
+  <message> trying download from internet http://registry.npmjs.org/which</message>
+</record>
+<record>
+  <date>2016-07-20T12:53:28</date>
+  <millis>1469019208510</millis>
+  <sequence>18</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>26</thread>
+  <message> trying download from internet http://registry.npmjs.org/serve-favicon</message>
+</record>
+<record>
+  <date>2016-07-20T12:53:28</date>
+  <millis>1469019208507</millis>
+  <sequence>17</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>23</thread>
+  <message> trying download from internet http://registry.npmjs.org/ws</message>
+</record>
+<record>
+  <date>2016-07-20T12:53:28</date>
+  <millis>1469019208505</millis>
+  <sequence>16</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>25</thread>
+  <message> trying download from internet http://registry.npmjs.org/rc</message>
+</record>
+<record>
+  <date>2016-07-20T12:53:39</date>
+  <millis>1469019219696</millis>
+  <sequence>21</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>21</thread>
+  <message>  downloaded from internet /path-is-absolute</message>
+</record>
+<record>
+  <date>2016-07-20T12:53:55</date>
+  <millis>1469019235862</millis>
+  <sequence>22</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>  downloaded from internet /v8-profiler</message>
+</record>
+<record>
+  <date>2016-07-20T12:53:56</date>
+  <millis>1469019236183</millis>
+  <sequence>23</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>21</thread>
+  <message>no existe localmente = /v8-profiler/-/v8-profiler-5.6.5.tgz</message>
+</record>
+<record>
+  <date>2016-07-20T12:53:56</date>
+  <millis>1469019236201</millis>
+  <sequence>24</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>21</thread>
+  <message> trying download from internet http://registry.npmjs.org/v8-profiler/-/v8-profiler-5.6.5.tgz</message>
+</record>
+<record>
+  <date>2016-07-20T12:53:59</date>
+  <millis>1469019239659</millis>
+  <sequence>25</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>14</thread>
+  <message>  downloaded from internet /biased-opener</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2016-07-21T21:37:45</date>
+  <millis>1469137065323</millis>
+  <sequence>0</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>9</thread>
+  <message>hostname = user-pc</message>
+</record>
+<record>
+  <date>2016-07-21T21:37:45</date>
+  <millis>1469137065727</millis>
+  <sequence>1</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>9</thread>
+  <message>carpeta = /media/datos/app/java/npmserver/repo</message>
+</record>
+<record>
+  <date>2016-07-21T21:37:45</date>
+  <millis>1469137065911</millis>
+  <sequence>2</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>9</thread>
+  <message>running = 127.0.0.1:8,888</message>
+</record>
+<record>
+  <date>2016-07-21T21:37:46</date>
+  <millis>1469137066009</millis>
+  <sequence>3</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>9</thread>
+  <message>running = localhost:8,888</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2016-07-24T20:31:41</date>
+  <millis>1469406701718</millis>
+  <sequence>0</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>9</thread>
+  <message>hostname = user-PC</message>
+</record>
+<record>
+  <date>2016-07-24T20:31:41</date>
+  <millis>1469406701827</millis>
+  <sequence>1</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>9</thread>
+  <message>carpeta = D:\app\java\npmserver\repo</message>
+</record>
+<record>
+  <date>2016-07-24T20:31:42</date>
+  <millis>1469406702092</millis>
+  <sequence>2</sequence>
+  <logger>com.fabiel.npmregistryserver.NPMRegistryServer</logger>
+  <level>SEVERE</level>
+  <class>com.fabiel.npmregistryserver.NPMRegistryServer$1</class>
+  <method>run</method>
+  <thread>9</thread>
+  <exception>
+    <message>java.net.BindException: Address already in use: bind</message>
+    <frame>
+      <class>sun.nio.ch.Net</class>
+      <method>bind0</method>
+    </frame>
+    <frame>
+      <class>sun.nio.ch.Net</class>
+      <method>bind</method>
+      <line>444</line>
+    </frame>
+    <frame>
+      <class>sun.nio.ch.Net</class>
+      <method>bind</method>
+      <line>436</line>
+    </frame>
+    <frame>
+      <class>sun.nio.ch.ServerSocketChannelImpl</class>
+      <method>bind</method>
+      <line>214</line>
+    </frame>
+    <frame>
+      <class>sun.nio.ch.ServerSocketAdaptor</class>
+      <method>bind</method>
+      <line>74</line>
+    </frame>
+    <frame>
+      <class>sun.net.httpserver.ServerImpl</class>
+      <method>bind</method>
+      <line>133</line>
+    </frame>
+    <frame>
+      <class>sun.net.httpserver.HttpServerImpl</class>
+      <method>bind</method>
+      <line>54</line>
+    </frame>
+    <frame>
+      <class>com.fabiel.npmregistryserver.NPMRegistryServer$1</class>
+      <method>run</method>
+      <line>118</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <method>run</method>
+      <line>745</line>
+    </frame>
+  </exception>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2016-07-24T20:34:09</date>
+  <millis>1469406849466</millis>
+  <sequence>0</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>9</thread>
+  <message>hostname = user-PC</message>
+</record>
+<record>
+  <date>2016-07-24T20:34:09</date>
+  <millis>1469406849513</millis>
+  <sequence>1</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>9</thread>
+  <message>carpeta = D:\app\java\npmserver\repo</message>
+</record>
+<record>
+  <date>2016-07-24T20:34:09</date>
+  <millis>1469406849684</millis>
+  <sequence>2</sequence>
+  <logger>com.fabiel.npmregistryserver.NPMRegistryServer</logger>
+  <level>SEVERE</level>
+  <class>com.fabiel.npmregistryserver.NPMRegistryServer$1</class>
+  <method>run</method>
+  <thread>9</thread>
+  <exception>
+    <message>java.net.BindException: Address already in use: bind</message>
+    <frame>
+      <class>sun.nio.ch.Net</class>
+      <method>bind0</method>
+    </frame>
+    <frame>
+      <class>sun.nio.ch.Net</class>
+      <method>bind</method>
+      <line>444</line>
+    </frame>
+    <frame>
+      <class>sun.nio.ch.Net</class>
+      <method>bind</method>
+      <line>436</line>
+    </frame>
+    <frame>
+      <class>sun.nio.ch.ServerSocketChannelImpl</class>
+      <method>bind</method>
+      <line>214</line>
+    </frame>
+    <frame>
+      <class>sun.nio.ch.ServerSocketAdaptor</class>
+      <method>bind</method>
+      <line>74</line>
+    </frame>
+    <frame>
+      <class>sun.net.httpserver.ServerImpl</class>
+      <method>bind</method>
+      <line>133</line>
+    </frame>
+    <frame>
+      <class>sun.net.httpserver.HttpServerImpl</class>
+      <method>bind</method>
+      <line>54</line>
+    </frame>
+    <frame>
+      <class>com.fabiel.npmregistryserver.NPMRegistryServer$1</class>
+      <method>run</method>
+      <line>120</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <method>run</method>
+      <line>745</line>
+    </frame>
+  </exception>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
