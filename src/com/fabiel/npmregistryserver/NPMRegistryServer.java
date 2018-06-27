@@ -110,7 +110,7 @@ public class NPMRegistryServer {
 //            System.out.println("URI");
 //        }
 //        System.setProperty("java.net.useSystemProxies", "true");
-        System.setProperty("http.keepalive", "false");
+//        System.setProperty("http.keepalive", "false");
         System.setProperty("http.maxConnections ", "20");
         System.setProperty("https.maxConnections ", "20");
         Properties p = new Properties();
@@ -289,7 +289,7 @@ public class NPMRegistryServer {
                                     JSONObject jsono = getJsonFixedFromTar(moduleName, file);
                                     byte[] bytes = jsono.toString().getBytes();
 //                                        if (entry.getName().endsWith("/package.json") || "package.json".equals(entry.getName())) {
-                                    servirStream(new ByteArrayInputStream(bytes), "application/json", bytes.length, he);
+                                    servirStream(new ByteArrayInputStream(bytes), "application/vnd.npm.install-v1+json", bytes.length, he);
 //                                        }
                                     break;
                                 default:
@@ -305,7 +305,7 @@ public class NPMRegistryServer {
                         String probeContentType = Files.probeContentType(index.toPath());
                         if (probeContentType == null) {
                             if (index.getName().endsWith(".json")) {
-                                probeContentType = "application/json";
+                                probeContentType = "application/vnd.npm.install-v1+json";
                             } else if (index.getName().endsWith(".tgz")) {
                                 probeContentType = "application/x-gzip";
                             }
@@ -341,6 +341,7 @@ public class NPMRegistryServer {
                             for (int i = 0; i < values.size(); i++) {
                                 String val = values.get(i);
                                 openConnection.addRequestProperty(head, val);
+//                                System.out.println(head+": "+val);
 //                                Logger.getGlobal().log(Level.INFO, "{0}: {1}", new Object[]{head, val});
                             }
                         });
@@ -352,7 +353,7 @@ public class NPMRegistryServer {
 //                            System.out.println("file = " + file);
                         try (InputStream inputStream = openConnection.getInputStream()) {
                             //escribir el archivo al disco
-                            if (!openConnection.getContentType().startsWith("application/json") && !"application/octet-stream".equals(openConnection.getContentType())) {
+                            if (!openConnection.getContentType().startsWith("application/vnd.npm.install-v1+json") && !"application/octet-stream".equals(openConnection.getContentType())) {
                                 inputStream.close();
                                 throw new IOException("content type no requerido " + openConnection.getContentType());
                             }
@@ -404,7 +405,7 @@ public class NPMRegistryServer {
                                 dist.put("tarball", "http://" + he.getLocalAddress().getHostString() + ":" + he.getLocalAddress().getPort() + URLDecoder.decode(path, "UTF-8") + "/-/" + Paths.get(URLDecoder.decode(path, "UTF-8")).getFileName() + "-" + key + ".tgz");
                             }
                             byte[] bytes = jsono.toString().getBytes();
-                            servirStream(new ByteArrayInputStream(bytes), "application/json", bytes.length, he);
+                            servirStream(new ByteArrayInputStream(bytes), "application/vnd.npm.install-v1+json", bytes.length, he);
                         }
                     }
 
