@@ -117,7 +117,6 @@ public class NPMRegistryServer {
         try {
             p.load(new BufferedInputStream(new FileInputStream(new File(Paths.get(System.getProperty("user.dir")).toFile(), "proxy.properties"))));
             p.put(p, args);
-
         } catch (Exception e) {
             System.err.println("error proxy.properties");
         }
@@ -127,7 +126,6 @@ public class NPMRegistryServer {
             System.out.println("proxyHost" + " " + p.containsKey("https.proxyHost"));
             System.out.println("java.net.useSystemProxies=" + System.getProperty("java.net.useSystemProxies"));
         }
-
 //        System.getProperties().list(System.out);
         System.out.println("SERVIDOR DE PAQUETES DE NODE *********\n"
                 + "para corregir errores pasar 1 parametro\n"
@@ -353,7 +351,7 @@ public class NPMRegistryServer {
 //                            System.out.println("file = " + file);
                         try (InputStream inputStream = openConnection.getInputStream()) {
                             //escribir el archivo al disco
-                            if (!openConnection.getContentType().startsWith("application/vnd.npm.install-v1+json") && !"application/octet-stream".equals(openConnection.getContentType())) {
+                            if (!openConnection.getContentType().startsWith("application/vnd.npm.install-v1+json") && !"application/octet-stream".equals(openConnection.getContentType()) && !"binary/octet-stream".equals(openConnection.getContentType())) {
                                 inputStream.close();
                                 throw new IOException("content type no requerido " + openConnection.getContentType());
                             }
