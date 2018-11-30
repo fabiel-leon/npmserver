@@ -31,6 +31,7 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
+import java.security.Security;
 import java.util.Collection;
 import java.util.Iterator;
 import java.util.List;
@@ -40,9 +41,11 @@ import java.util.Set;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.logging.FileHandler;
-import java.util.logging.Level;
 import java.util.logging.Logger;
 import java.util.zip.GZIPInputStream;
+import javax.net.ssl.HostnameVerifier;
+import javax.net.ssl.HttpsURLConnection;
+import javax.net.ssl.SSLSession;
 import org.apache.commons.compress.archivers.tar.TarArchiveEntry;
 import org.apache.commons.compress.archivers.tar.TarArchiveInputStream;
 import org.apache.commons.compress.archivers.tar.TarArchiveOutputStream;
@@ -111,8 +114,15 @@ public class NPMRegistryServer {
 //        }
 //        System.setProperty("java.net.useSystemProxies", "true");
 //        System.setProperty("http.keepalive", "false");
+        Security.setProperty("ssl.SocketFactory.provider", "com.fabiel.security.SSLSocketFactorySimple");
+        // para q no verifiq el el host del cert vs el ip 
+        HostnameVerifier allHostsValid = (String hostname, SSLSession session) -> true;
+        // Install the all-trusting host verifier
+        HttpsURLConnection.setDefaultHostnameVerifier(allHostsValid);
+
         System.setProperty("http.maxConnections ", "20");
         System.setProperty("https.maxConnections ", "20");
+        System.setProperty("sun.net.http.allowRestrictedHeaders", "true");
         Properties p = new Properties();
         try {
             p.load(new BufferedInputStream(new FileInputStream(new File(Paths.get(System.getProperty("user.dir")).toFile(), "proxy.properties"))));
@@ -122,6 +132,7 @@ public class NPMRegistryServer {
         }
         if (p.containsKey("https.proxyHost")) {
             System.getProperties().putAll(p);
+            REPOURL = System.getProperty("npm.repo");
 //            System.setProperties();
             System.out.println("proxyHost" + " " + p.containsKey("https.proxyHost"));
             System.out.println("java.net.useSystemProxies=" + System.getProperty("java.net.useSystemProxies"));
@@ -201,6 +212,13 @@ public class NPMRegistryServer {
 //                                System.out.println("path = " + path + " count = " + pathCount);
                             File reqFile = new File(REPODIR, path);
 //
+                            Collection<List<String>> entrySet = he.getRequestHeaders().values();
+                            entrySet.stream().forEach((list) -> {
+                                for (int i = 0; i < list.size(); i++) {
+                                    String get = list.get(i);
+                                    System.out.println("header: " + get);
+                                }
+                            });
                             switch (pathCount) {
                                 //
                                 /**
@@ -343,6 +361,11 @@ public class NPMRegistryServer {
 //                                Logger.getGlobal().log(Level.INFO, "{0}: {1}", new Object[]{head, val});
                             }
                         });
+                        openConnection.setRequestProperty("Host", System.getProperty("npm.hostHeader", "registry.npmjs.org"));
+                        openConnection.getRequestProperty("Host");
+                        System.out.println(
+                                "header: " + openConnection.getRequestProperty("Host") + "," + openConnection.getHeaderField("Host")
+                        );
 //escribir el archivo al disco
 //                            File file = new File(REPODIR, Paths.get(URLDecoder.decode(path, "UTF-8"), (!path.endsWith(".tgz") ? "/index.json" : "")).toString());
                         File file = new File(REPODIR, Paths.get(path, (!path.endsWith(".tgz") ? "/index.json" : "")).toString());
@@ -351,7 +374,7 @@ public class NPMRegistryServer {
 //                            System.out.println("file = " + file);
                         try (InputStream inputStream = openConnection.getInputStream()) {
                             //escribir el archivo al disco
-                            if (!openConnection.getContentType().startsWith("application/vnd.npm.install-v1+json") && !"application/octet-stream".equals(openConnection.getContentType()) && !"binary/octet-stream".equals(openConnection.getContentType())) {
+                            if (!openConnection.getContentType().startsWith("application/vnd.npm.install-v1+json") && !openConnection.getContentType().startsWith("application/json") && !"application/octet-stream".equals(openConnection.getContentType()) && !"binary/octet-stream".equals(openConnection.getContentType())) {
                                 inputStream.close();
                                 throw new IOException("content type no requerido " + openConnection.getContentType());
                             }
@@ -424,14 +447,26 @@ public class NPMRegistryServer {
                     }
 
                     private void docModule(String path, String query, File f, HttpExchange he) throws IOException, JSONException {
-                        String[] split = query.split("=");
-                        File file = new File(new File(f, split[1]), "index.json");
-                        try (BufferedInputStream bis = new BufferedInputStream(new FileInputStream(file))) {
-                            JSONObject jsono = new JSONObject(new String(ByteStreams.toByteArray(bis), "ASCII"));
-                            String string = jsono.getString("readme");
-                            byte[] bytes = string.getBytes();
-                            servirStream(new ByteArrayInputStream(bytes), "text/plain", bytes.length, he);
+                        // String[] split = query.split("=");
+                        // File file = new File(new File(f, split[1]), "index.json");
+                        // try (BufferedInputStream bis = new BufferedInputStream(new FileInputStream(file))) {
+                        //     JSONObject jsono = new JSONObject(new String(ByteStreams.toByteArray(bis), "ASCII"));
+                        //     String string = jsono.getString("readme");
+                        //     byte[] bytes = string.getBytes();
+                        //     servirStream(new ByteArrayInputStream(bytes), "text/plain", bytes.length, he);
+                        // }
+                        ByteArrayOutputStream baos = new ByteArrayOutputStream();
+                        try (PrintWriter pw = new PrintWriter(baos)) {
+                            File[] listFiles = f.listFiles();
+                            for (File file : listFiles) {
+                                pw.print("<a href='?p=" + f.getName() + "&v=" + file.getName() + "'>" + file.getName() + "</a><br>");
+                            }
+                            pw.flush();
                         }
+                        byte[] toByteArray = baos.toByteArray();
+                        he.sendResponseHeaders(200, toByteArray.length);
+                        ByteStreams.copy(new ByteArrayInputStream(toByteArray), he.getResponseBody());
+                        he.close();
                     }
 
                     private JSONObject getJsonFixedFromTar(String moduleName, File file) throws IOException, JSONException, NoSuchAlgorithmException {
